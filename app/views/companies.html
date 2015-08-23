@@ -6,13 +6,26 @@
   </h1>
 </div>
 <div class="row">
-  <div class="col-md-offset-8 col-md-4">
+  <div class="col-md-8">
+    <a ui-sref="index" ng-if="company.place" id="home-link">
+      <i class="fa fa-fw fa-filter"></i> <span>Сите компании</span>
+    </a>
+    <button type="button" class="btn btn-sm" ng-click="company.order = 'name'"
+      ng-class="{ 'btn-info' : company.order === 'name', 'btn-default' : company.order !== 'name'}">
+      <i class="fa fa-sort-alpha-asc sort"></i>
+    </button>
+    <button type="button" class="btn btn-sm" ng-click="company.order = '-name'"
+            ng-class="{ 'btn-info' : company.order === '-name', 'btn-default' : company.order !== '-name'}">
+      <i class="fa fa-sort-alpha-desc sort"></i>
+    </button>
+  </div>
+  <div class="col-md-4">
     <input type="text" ng-model="search_taxi" placeholder="Пребарај такси..."
            class="form-control search-taxi"/>
   </div>
 </div>
 <div class="row">
-  <div class="col-md-6 col-sm-6 col-lg-4" ng-repeat="t in company.taxi | orderBy: 'name' | filter:search_taxi">
+  <div class="col-md-6 col-sm-6 col-lg-4" ng-repeat="t in company.taxi | orderBy: company.order | filter:search_taxi">
     <div class="panel panel-default taxi-item">
       <div class="panel-heading">
         <h2 title="{{ t.description }}"><i class="fa fa-fw fa-taxi icon-header"></i> {{ t.name }}</h2>

@@ -73,7 +73,7 @@ gulp.task('config', function (cb) {
 gulp.task('data', function (cb) {
   var places = require('./data/places.json');
   var taxi = require('./data/taxi.json');
-  gulp.src('app/data.json')
+  gulp.src([])
     .pipe(ngConfig('taximk.data', {
       constants: {
         places: places,
@@ -124,6 +124,12 @@ gulp.task('cache-break', function () {
 
 gulp.task('default', tasks, function () {
   gulp.start('cache-break');
+});
+
+gulp.task('lint', function () {
+  return gulp.src(APP)
+    .pipe(eslint())
+    .pipe(eslint.format());
 });
 
 gulp.task('watch', function () {

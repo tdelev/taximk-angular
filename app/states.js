@@ -30,7 +30,8 @@
         taxi: function ($stateParams, $filter, taxi) {
           if ($stateParams.placeId) {
             var filtered = $filter('filter')(taxi.data, function (value, index) {
-              return value.place.id == $stateParams.placeId;
+              var placeId = parseInt($stateParams.placeId, 10);
+              return value.place.id === placeId;
             });
             return filtered;
           } else {
@@ -40,7 +41,8 @@
         place: function ($stateParams, $filter, places) {
           if ($stateParams.placeId) {
             var filtered = $filter('filter')(places.data, function (value, index) {
-              return value.id == $stateParams.placeId;
+              var placeId = parseInt($stateParams.placeId, 10);
+              return value.id === placeId;
             });
             return filtered[0];
           } else {

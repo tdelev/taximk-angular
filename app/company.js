@@ -8,5 +8,6 @@
     var vm = this;
     vm.taxi = taxi;
     vm.place = place;
+    vm.order = 'name';
   }
 })();
