@@ -1,0 +1,44 @@
+<div class="page-header">
+  <h1>
+    <span ng-if="company.place">{{ company.place.name }}</span>
+    <span ng-if="!company.place">Македонија</span>
+    <small>({{ company.taxi.length }})</small>
+  </h1>
+</div>
+<div class="row">
+  <div class="col-md-offset-8 col-md-4">
+    <input type="text" ng-model="search_taxi" placeholder="Пребарај такси..."
+           class="form-control search-taxi"/>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-6 col-sm-6 col-lg-4" ng-repeat="t in company.taxi | orderBy: 'name' | filter:search_taxi">
+    <div class="panel panel-default taxi-item">
+      <div class="panel-heading">
+        <h2 title="{{ t.description }}"><i class="fa fa-fw fa-taxi icon-header"></i> {{ t.name }}</h2>
+      </div>
+      <div class="panel-body">
+        <div class="row">
+          <div class="col-md-6 col-xs-6 col-sm-6">
+            <h4>
+              <i class="fa fa-fw fa-phone"></i>
+              <a href="tel:{{ t.phone }}" title="Кликни да го повикаш ова такси">{{ t.phone }}</a>
+            </h4>
+          </div>
+          <div class="col-md-6 col-xs-6 col-sm-6">
+            <h4 ng-if="t.phone2">
+              <i class="fa fa-fw fa-phone-square"></i>
+              <a href="tel:{{ t.phone2 }}" title="Кликни да го повикаш ова такси"> {{ t.phone2 }} </a>
+            </h4>
+          </div>
+        </div>
+      </div>
+      <div class="panel-footer">
+        <i class="fa fa-fw fa-home"></i>
+        <strong><a ui-sref="taxi({ placeId : t.place.id, slug : t.place.slug })">{{ t.place.name }}</a></strong>
+        <span title="{{ t.address }}" ng-if="t.address">- {{ t.address | limitTo: 30 }}</span>
+        <span ng-if="t.address.length > 30" title="{{ t.address }}">...</span>
+      </div>
+    </div>
+  </div>
+</div>

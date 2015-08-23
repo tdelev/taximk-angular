@@ -1,0 +1,206 @@
+/*
+ * Base structure
+ */
+/* Move down content because we have a fixed navbar that is 50px tall */
+
+body, html, .row-offcanvas {
+    height: 100%;
+}
+
+body {
+    padding-top: 50px;
+}
+
+#sidebar {
+    width: inherit;
+    min-width: 220px;
+    max-width: 220px;
+    background-color: #000000;
+    float: left;
+    height: 100%;
+    position: relative;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#main {
+    height: 100%;
+    overflow: auto;
+}
+
+/*
+ * off Canvas sidebar
+ * --------------------------------------------------
+ */
+
+@media screen and (max-width: 768px) {
+    .row-offcanvas {
+        position: relative;
+        -webkit-transition: all 0.25s ease-out;
+        -moz-transition: all 0.25s ease-out;
+        transition: all 0.25s ease-out;
+        width: calc(100% + 220px);
+    }
+
+    .row-offcanvas-left {
+        left: -220px;
+    }
+
+    .row-offcanvas-left.active {
+        left: 0;
+    }
+
+    .sidebar-offcanvas {
+        position: absolute;
+        top: 0;
+    }
+}
+
+.td-center {
+    text-align: center;
+}
+
+.td-edit {
+    text-align: center;
+    width: 200px;
+}
+
+.td-id {
+    text-align: right;
+    width: 50px;
+}
+
+.crud-button {
+    text-align: right;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.sidebar {
+}
+
+.nav-sidebar {
+    line-height: 1;
+}
+
+.taxi-item {
+    border-radius: 0;
+}
+
+.taxi-item .panel-body {
+}
+.taxi-item h3 {
+    margin-top: 15px;
+}
+
+.taxi-item .panel-heading > h2 {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #eeeeee;
+}
+.taxi-item h4 {
+    margin-top: 18px;
+}
+.icon-header {
+    color: #FFE83C;
+}
+
+.taxi-item .panel-heading {
+    background-color: #000;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.taxi-item a {
+    text-decoration: none;
+}
+
+.nav > li > a:hover, .nav > li > a:focus {
+    text-decoration: none;
+    background-color: #FFE83C;
+    color: #5965C1;
+}
+
+.navbar-inverse {
+    background-color: #FFE83C;
+    border-color: #F1D60A;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #000000;
+}
+
+a.place {
+    color: #FFE83C;
+}
+
+a {
+    color: #3B49B0;
+}
+
+a:hover {
+    color: #5965C1;
+}
+
+.nav-pills > li {
+    line-height: 1.2;
+}
+
+.nav-pills > li > a {
+    border-radius: 0px;
+}
+
+#place-search {
+    margin: 8px;
+}
+.form-control {
+    border-radius: 0;
+}
+.search:focus {
+    border-color: #FFE83C;
+    box-shadow: inset 0 -2px 0 #FFE83C !important;
+}
+
+.search-taxi {
+    margin-bottom: 10px;
+}
+
+.search-taxi:focus {
+    border-color: #FFE83C;
+    box-shadow: inset 0 -2px 0 #FFE83C !important;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #000000;
+    font-weight: bold;
+}
+
+.navbar-inverse .navbar-brand:focus {
+    color: #000000;
+}
+
+.menu-button {
+    float: left;
+    color: #000000;
+    font-size: 2em;
+    margin-top: 8px;
+    cursor: pointer;
+}
+.menu-button:hover {
+    color: #999;
+}
+
+[ng\:cloak], [ng-cloak], .ng-cloak {
+    display: none !important;
+}
+
+.main-container {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 3px 15px;
+}

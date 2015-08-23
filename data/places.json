@@ -1,0 +1,135 @@
+{
+  "version": 1,
+  "data": [
+    {
+      "id": 15,
+      "name": "Берово",
+      "slug": "berovo"
+    },
+    {
+      "id": 4,
+      "name": "Битола",
+      "slug": "bitola"
+    },
+    {
+      "id": 16,
+      "name": "Богданци",
+      "slug": "bogdanci"
+    },
+    {
+      "id": 24,
+      "name": "Валандово",
+      "slug": "valandovo"
+    },
+    {
+      "id": 12,
+      "name": "Велес",
+      "slug": "veles"
+    },
+    {
+      "id": 25,
+      "name": "Виница",
+      "slug": "vinica"
+    },
+    {
+      "id": 8,
+      "name": "Гевгелија",
+      "slug": "gevgelija"
+    },
+    {
+      "id": 23,
+      "name": "Гостивар",
+      "slug": "gostivar"
+    },
+    {
+      "id": 7,
+      "name": "Демир Капија",
+      "slug": "demir-kapija"
+    },
+    {
+      "id": 22,
+      "name": "Кавадарци",
+      "slug": "kavadarci"
+    },
+    {
+      "id": 14,
+      "name": "Кичево",
+      "slug": "kichevo"
+    },
+    {
+      "id": 6,
+      "name": "Кочани",
+      "slug": "kochani"
+    },
+    {
+      "id": 3,
+      "name": "Куманово",
+      "slug": "kumanovo"
+    },
+    {
+      "id": 18,
+      "name": "Неготино",
+      "slug": "negotino"
+    },
+    {
+      "id": 2,
+      "name": "Охрид",
+      "slug": "ohrid"
+    },
+    {
+      "id": 20,
+      "name": "Пехчево",
+      "slug": "pehchevo"
+    },
+    {
+      "id": 9,
+      "name": "Прилеп",
+      "slug": "prilep"
+    },
+    {
+      "id": 17,
+      "name": "Пробиштип",
+      "slug": "probishtip"
+    },
+    {
+      "id": 13,
+      "name": "Ресен",
+      "slug": "resen"
+    },
+    {
+      "id": 19,
+      "name": "Свети Николе",
+      "slug": "sveti-nikole"
+    },
+    {
+      "id": 1,
+      "name": "Скопје",
+      "slug": "skopje"
+    },
+    {
+      "id": 27,
+      "name": "Струга",
+      "slug": "struga"
+    },
+    {
+      "id": 11,
+      "name": "Струмица",
+      "slug": "strumica"
+    },
+    {
+      "id": 5,
+      "name": "Тетово",
+      "slug": "tetovo"
+    },
+    {
+      "id": 21,
+      "name": "Ќустендил (Бугарија)",
+      "slug": "kjustendil-(bugarija)"
+    },
+    {
+      "id": 10,
+      "name": "Штип",
+      "slug": "shtip"
+    }
+  ]
+}

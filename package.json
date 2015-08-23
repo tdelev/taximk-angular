@@ -1,0 +1,19 @@
+{
+  "name": "taximk-angular",
+  "version": "1.0.0",
+  "description": "TAXIMK Angular app",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^1.1.0",
+    "git-rev": "^0.2.1",
+    "gulp": "^3.9.0",
+    "gulp-angular-templatecache": "^1.7.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-data": "^1.2.0",
+    "gulp-eslint": "^1.0.0",
+    "gulp-ng-config": "^1.2.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-rev-append": "^0.1.6"
+  }
+}
