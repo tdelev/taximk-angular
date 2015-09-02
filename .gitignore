@@ -1,3 +1,5 @@
+app/data.js
+app/config.js
 bower_components
 taximk-angular.iml
 node_modules

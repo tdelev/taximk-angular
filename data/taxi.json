@@ -1,2693 +1,2690 @@
-{
-  "version": 1,
-  "data": [
-    {
-      "name": "ВИП",
-      "phone2": "",
+[
+  {
+    "name": "ВИП",
+    "phone2": "",
+    "id": 1,
+    "phone": "070 219651",
+    "place": {
+      "slug": "skopje",
       "id": 1,
-      "phone": "070 219651",
-      "place": {
-        "slug": "skopje",
-        "id": 1,
-        "name": "Скопје"
-      },
-      "address": "бул.АСНОМ 72/1",
-      "slug": "vip",
-      "description": null
+      "name": "Скопје"
     },
-    {
-      "name": "Сателит",
-      "phone2": "032 482808",
-      "id": 2,
-      "phone": "032 480900",
-      "place": {
-        "slug": "probishtip",
-        "id": 17,
-        "name": "Пробиштип"
-      },
-      "address": "Вељко Влаховиќ 3/13",
-      "slug": "satelit",
-      "description": null
-    },
-    {
-      "name": "Валентино Такси",
-      "phone2": "071 211759",
-      "id": 3,
-      "phone": "070 254231",
-      "place": {
-        "slug": "skopje",
-        "id": 1,
-        "name": "Скопје"
-      },
-      "address": "Христо Батанџиев 72-1/12 (Социјалистичка зора)",
-      "slug": "valentino-taksi",
-      "description": null
-    },
-    {
-      "name": "Вардар 15-165",
-      "phone2": "",
-      "id": 4,
-      "phone": "02 15165",
-      "place": {
-        "slug": "skopje",
-        "id": 1,
-        "name": "Скопје"
-      },
-      "address": "бул.8-ми Септември 8",
-      "slug": "vardar-15-165",
-      "description": null
-    },
-    {
-      "name": "Вардар 15-195",
-      "phone2": "072 302222",
-      "id": 5,
-      "phone": "02 15195",
-      "place": {
-        "slug": "skopje",
-        "id": 1,
-        "name": "Скопје"
-      },
-      "address": "Франклин Рузвелт б.б.",
-      "slug": "vardar-15-195",
-      "description": null
-    },
-    {
-      "name": "Водно-15-191",
-      "phone2": "02 3215003",
-      "id": 6,
-      "phone": "02 3230775",
-      "place": {
-        "slug": "skopje",
-        "id": 1,
-        "name": "Скопје"
-      },
-      "address": "Душан Тасковиќ б.б.",
-      "slug": "vodno-15-191",
-      "description": null
-    },
-    {
-      "name": "Волт-15-174",
-      "phone2": "02 2630630",
-      "id": 7,
-      "phone": "02 2628628",
-      "place": {
-        "slug": "skopje",
-        "id": 1,
-        "name": "Скопје"
-      },
-      "address": "Фан Ноли 137 (Вергино)",
-      "slug": "volt-15-174",
-      "description": null
-    },
-    {
-      "name": "Глобал",
-      "phone2": "070 515180",
-      "id": 8,
-      "phone": "02 15180",
-      "place": {
-        "slug": "skopje",
-        "id": 1,
-        "name": "Скопје"
-      },
-      "address": "бул.Крсте Мисирков 14-1/1",
-      "slug": "global",
-      "description": null
-    },
-    {
-      "name": "Де Лукс-15-187",
-      "phone2": "071 228822",
-      "id": 9,
-      "phone": "02 2431500",
-      "place": {
-        "slug": "skopje",
-        "id": 1,
-        "name": "Скопје"
-      },
-      "address": "Мите Богоевски 4/1",
-      "slug": "de-luks-15-187",
-      "description": null
-    },
-    {
-      "name": "Експрес 15196",
-      "phone2": "02 3086286",
-      "id": 10,
-      "phone": "02 3086286",
-      "place": {
-        "slug": "skopje",
-        "id": 1,
-        "name": "Скопје"
-      },
-      "address": "Козле 88/2 лок.7",
-      "slug": "ekspres-15196",
-      "description": null
-    },
-    {
-      "name": "Елита унион 15-164",
-      "phone2": "",
-      "id": 11,
-      "phone": "02 2626918",
-      "place": {
-        "slug": "skopje",
-        "id": 1,
-        "name": "Скопје"
-      },
-      "address": "Тале Христов 1/5",
-      "slug": "elita-union-15-164",
-      "description": null
-    },
-    {
-      "name": "Елитте 15-169",
-      "phone2": "071 210900",
-      "id": 12,
-      "phone": "02 15169",
-      "place": {
-        "slug": "skopje",
-        "id": 1,
-        "name": "Скопје"
-      },
-      "address": "бул.АСНОМ 56",
-      "slug": "elitte-15-169",
-      "description": null
-    },
-    {
-      "name": "Еуро Такси 15-184",
-      "phone2": "071 215184",
-      "id": 13,
-      "phone": "02 2613111",
-      "place": {
-        "slug": "skopje",
-        "id": 1,
-        "name": "Скопје"
-      },
-      "address": "ТЦ Живко Брајковски лок.46 лам.3",
-      "slug": "euro-taksi-15-184",
-      "description": null
-    },
-    {
-      "name": "Јелоу 15-185",
-      "phone2": "3067367",
-      "id": 14,
-      "phone": "02 15185",
-      "place": {
-        "slug": "skopje",
-        "id": 1,
-        "name": "Скопје"
-      },
-      "address": "Никола Парапунов 3-а-1/6",
-      "slug": "jelou-15-185",
-      "description": null
-    },
-    {
-      "name": "Класик 15-167",
-      "phone2": "02 2032253",
-      "id": 15,
-      "phone": "02 2032265",
-      "place": {
-        "slug": "skopje",
-        "id": 1,
-        "name": "Скопје"
-      },
-      "address": "Ѓорче Петров 45",
-      "slug": "klasik-15-167",
-      "description": null
-    },
-    {
-      "name": "Коммак Комерц-15-193",
-      "phone2": "02 2612277",
-      "id": 16,
-      "phone": "02 2612277",
-      "place": {
-        "slug": "skopje",
-        "id": 1,
-        "name": "Скопје"
-      },
-      "address": "Душан Тасковиќ 24",
-      "slug": "kommak-komerc-15-193",
-      "description": null
-    },
-    {
-      "name": "Лотус Транспорт",
-      "phone2": "02 3122174",
+    "address": "бул.АСНОМ 72/1",
+    "slug": "vip",
+    "description": null
+  },
+  {
+    "name": "Сателит",
+    "phone2": "032 482808",
+    "id": 2,
+    "phone": "032 480900",
+    "place": {
+      "slug": "probishtip",
       "id": 17,
-      "phone": "02 15157",
-      "place": {
-        "slug": "skopje",
-        "id": 1,
-        "name": "Скопје"
-      },
-      "address": "Методија Андонов Ченто 13 (Антон Попов)",
-      "slug": "lotus-transport",
-      "description": null
+      "name": "Пробиштип"
     },
-    {
-      "name": "ЛВД",
-      "phone2": "",
+    "address": "Вељко Влаховиќ 3/13",
+    "slug": "satelit",
+    "description": null
+  },
+  {
+    "name": "Валентино Такси",
+    "phone2": "071 211759",
+    "id": 3,
+    "phone": "070 254231",
+    "place": {
+      "slug": "skopje",
+      "id": 1,
+      "name": "Скопје"
+    },
+    "address": "Христо Батанџиев 72-1/12 (Социјалистичка зора)",
+    "slug": "valentino-taksi",
+    "description": null
+  },
+  {
+    "name": "Вардар 15-165",
+    "phone2": "",
+    "id": 4,
+    "phone": "02 15165",
+    "place": {
+      "slug": "skopje",
+      "id": 1,
+      "name": "Скопје"
+    },
+    "address": "бул.8-ми Септември 8",
+    "slug": "vardar-15-165",
+    "description": null
+  },
+  {
+    "name": "Вардар 15-195",
+    "phone2": "072 302222",
+    "id": 5,
+    "phone": "02 15195",
+    "place": {
+      "slug": "skopje",
+      "id": 1,
+      "name": "Скопје"
+    },
+    "address": "Франклин Рузвелт б.б.",
+    "slug": "vardar-15-195",
+    "description": null
+  },
+  {
+    "name": "Водно-15-191",
+    "phone2": "02 3215003",
+    "id": 6,
+    "phone": "02 3230775",
+    "place": {
+      "slug": "skopje",
+      "id": 1,
+      "name": "Скопје"
+    },
+    "address": "Душан Тасковиќ б.б.",
+    "slug": "vodno-15-191",
+    "description": null
+  },
+  {
+    "name": "Волт-15-174",
+    "phone2": "02 2630630",
+    "id": 7,
+    "phone": "02 2628628",
+    "place": {
+      "slug": "skopje",
+      "id": 1,
+      "name": "Скопје"
+    },
+    "address": "Фан Ноли 137 (Вергино)",
+    "slug": "volt-15-174",
+    "description": null
+  },
+  {
+    "name": "Глобал",
+    "phone2": "070 515180",
+    "id": 8,
+    "phone": "02 15180",
+    "place": {
+      "slug": "skopje",
+      "id": 1,
+      "name": "Скопје"
+    },
+    "address": "бул.Крсте Мисирков 14-1/1",
+    "slug": "global",
+    "description": null
+  },
+  {
+    "name": "Де Лукс-15-187",
+    "phone2": "071 228822",
+    "id": 9,
+    "phone": "02 2431500",
+    "place": {
+      "slug": "skopje",
+      "id": 1,
+      "name": "Скопје"
+    },
+    "address": "Мите Богоевски 4/1",
+    "slug": "de-luks-15-187",
+    "description": null
+  },
+  {
+    "name": "Експрес 15196",
+    "phone2": "02 3086286",
+    "id": 10,
+    "phone": "02 3086286",
+    "place": {
+      "slug": "skopje",
+      "id": 1,
+      "name": "Скопје"
+    },
+    "address": "Козле 88/2 лок.7",
+    "slug": "ekspres-15196",
+    "description": null
+  },
+  {
+    "name": "Елита унион 15-164",
+    "phone2": "",
+    "id": 11,
+    "phone": "02 2626918",
+    "place": {
+      "slug": "skopje",
+      "id": 1,
+      "name": "Скопје"
+    },
+    "address": "Тале Христов 1/5",
+    "slug": "elita-union-15-164",
+    "description": null
+  },
+  {
+    "name": "Елитте 15-169",
+    "phone2": "071 210900",
+    "id": 12,
+    "phone": "02 15169",
+    "place": {
+      "slug": "skopje",
+      "id": 1,
+      "name": "Скопје"
+    },
+    "address": "бул.АСНОМ 56",
+    "slug": "elitte-15-169",
+    "description": null
+  },
+  {
+    "name": "Еуро Такси 15-184",
+    "phone2": "071 215184",
+    "id": 13,
+    "phone": "02 2613111",
+    "place": {
+      "slug": "skopje",
+      "id": 1,
+      "name": "Скопје"
+    },
+    "address": "ТЦ Живко Брајковски лок.46 лам.3",
+    "slug": "euro-taksi-15-184",
+    "description": null
+  },
+  {
+    "name": "Јелоу 15-185",
+    "phone2": "3067367",
+    "id": 14,
+    "phone": "02 15185",
+    "place": {
+      "slug": "skopje",
+      "id": 1,
+      "name": "Скопје"
+    },
+    "address": "Никола Парапунов 3-а-1/6",
+    "slug": "jelou-15-185",
+    "description": null
+  },
+  {
+    "name": "Класик 15-167",
+    "phone2": "02 2032253",
+    "id": 15,
+    "phone": "02 2032265",
+    "place": {
+      "slug": "skopje",
+      "id": 1,
+      "name": "Скопје"
+    },
+    "address": "Ѓорче Петров 45",
+    "slug": "klasik-15-167",
+    "description": null
+  },
+  {
+    "name": "Коммак Комерц-15-193",
+    "phone2": "02 2612277",
+    "id": 16,
+    "phone": "02 2612277",
+    "place": {
+      "slug": "skopje",
+      "id": 1,
+      "name": "Скопје"
+    },
+    "address": "Душан Тасковиќ 24",
+    "slug": "kommak-komerc-15-193",
+    "description": null
+  },
+  {
+    "name": "Лотус Транспорт",
+    "phone2": "02 3122174",
+    "id": 17,
+    "phone": "02 15157",
+    "place": {
+      "slug": "skopje",
+      "id": 1,
+      "name": "Скопје"
+    },
+    "address": "Методија Андонов Ченто 13 (Антон Попов)",
+    "slug": "lotus-transport",
+    "description": null
+  },
+  {
+    "name": "ЛВД",
+    "phone2": "",
+    "id": 18,
+    "phone": "070 939629",
+    "place": {
+      "slug": "skopje",
+      "id": 1,
+      "name": "Скопје"
+    },
+    "address": "Руѓер Бошковиќ 8",
+    "slug": "lvd",
+    "description": null
+  },
+  {
+    "name": "Наше Такси 15-152",
+    "phone2": "",
+    "id": 19,
+    "phone": "02 15152",
+    "place": {
+      "slug": "skopje",
+      "id": 1,
+      "name": "Скопје"
+    },
+    "address": "Перо Наков б.б., п.фах 18",
+    "slug": "nashe-taksi-15-152",
+    "description": null
+  },
+  {
+    "name": "Палас 15-166",
+    "phone2": "02 3086200",
+    "id": 20,
+    "phone": "02 15166",
+    "place": {
+      "slug": "skopje",
+      "id": 1,
+      "name": "Скопје"
+    },
+    "address": "Козле 88-б/1-4/6",
+    "slug": "palas-15-166",
+    "description": null
+  },
+  {
+    "name": "Панорама 15-199",
+    "phone2": "071 315199",
+    "id": 21,
+    "phone": "02 15199",
+    "place": {
+      "slug": "skopje",
+      "id": 1,
+      "name": "Скопје"
+    },
+    "address": "бул.В.С.Бато 11 лок.3",
+    "slug": "panorama-15-199",
+    "description": null
+  },
+  {
+    "name": "Парк",
+    "phone2": "",
+    "id": 22,
+    "phone": "02 15158",
+    "place": {
+      "slug": "skopje",
+      "id": 1,
+      "name": "Скопје"
+    },
+    "address": "Коста Новаковиќ 50/4",
+    "slug": "park",
+    "description": null
+  },
+  {
+    "name": "Браќа Петридови",
+    "phone2": "075 365365",
+    "id": 23,
+    "phone": "043 365365",
+    "place": {
+      "slug": "negotino",
       "id": 18,
-      "phone": "070 939629",
-      "place": {
-        "slug": "skopje",
-        "id": 1,
-        "name": "Скопје"
-      },
-      "address": "Руѓер Бошковиќ 8",
-      "slug": "lvd",
-      "description": null
+      "name": "Неготино"
     },
-    {
-      "name": "Наше Такси 15-152",
-      "phone2": "",
+    "address": "Вељко Влаховиќ 18",
+    "slug": "brakja-petridovi",
+    "description": null
+  },
+  {
+    "name": "ТП Цило",
+    "phone2": "",
+    "id": 24,
+    "phone": "043 365365",
+    "place": {
+      "slug": "negotino",
+      "id": 18,
+      "name": "Неготино"
+    },
+    "address": "Вељко Влаховиќ 18",
+    "slug": "tp-cilo",
+    "description": null
+  },
+  {
+    "name": "Плава лагуна 15-192",
+    "phone2": "",
+    "id": 25,
+    "phone": "02 15192",
+    "place": {
+      "slug": "skopje",
+      "id": 1,
+      "name": "Скопје"
+    },
+    "address": "Петар Поп Арсов 17 лок.12",
+    "slug": "plava-laguna-15-192",
+    "description": null
+  },
+  {
+    "name": "Потрчко",
+    "phone2": "02 5211416",
+    "id": 26,
+    "phone": "02 5211416",
+    "place": {
+      "slug": "skopje",
+      "id": 1,
+      "name": "Скопје"
+    },
+    "address": "Лазар Димитров 29-б",
+    "slug": "potrchko",
+    "description": null
+  },
+  {
+    "name": "Примус",
+    "phone2": "070 216765",
+    "id": 27,
+    "phone": "02 2722777",
+    "place": {
+      "slug": "skopje",
+      "id": 1,
+      "name": "Скопје"
+    },
+    "address": "Локов 3-1/3",
+    "slug": "primus",
+    "description": null
+  },
+  {
+    "name": "Пролет 15-160",
+    "phone2": "",
+    "id": 28,
+    "phone": "02 15160",
+    "place": {
+      "slug": "skopje",
+      "id": 1,
+      "name": "Скопје"
+    },
+    "address": "Јани Лукровски 8-1/3",
+    "slug": "prolet-15-160",
+    "description": null
+  },
+  {
+    "name": "Пулсар 15-197",
+    "phone2": "",
+    "id": 29,
+    "phone": "02 15197",
+    "place": {
+      "slug": "skopje",
+      "id": 1,
+      "name": "Скопје"
+    },
+    "address": "бул.К.Ј.Питу 22",
+    "slug": "pulsar-15-197",
+    "description": null
+  },
+  {
+    "name": "Пулстарс 15-177",
+    "phone2": "",
+    "id": 30,
+    "phone": "02 3134499",
+    "place": {
+      "slug": "skopje",
+      "id": 1,
+      "name": "Скопје"
+    },
+    "address": "Васил Ѓоргов 29/1",
+    "slug": "pulstars-15-177",
+    "description": null
+  },
+  {
+    "name": "Рива 15-161",
+    "phone2": "",
+    "id": 31,
+    "phone": "02 15161",
+    "place": {
+      "slug": "skopje",
+      "id": 1,
+      "name": "Скопје"
+    },
+    "address": "Скупи б.б.",
+    "slug": "riva-15-161",
+    "description": null
+  },
+  {
+    "name": "Ројал",
+    "phone2": "02 3080938",
+    "id": 32,
+    "phone": "02 3080938",
+    "place": {
+      "slug": "skopje",
+      "id": 1,
+      "name": "Скопје"
+    },
+    "address": "Кленоец 61-б-1/1",
+    "slug": "rojal",
+    "description": null
+  },
+  {
+    "name": "Сики Ексклузив Транспорт",
+    "phone2": "02 2722777",
+    "id": 33,
+    "phone": "070 216765",
+    "place": {
+      "slug": "skopje",
+      "id": 1,
+      "name": "Скопје"
+    },
+    "address": "Локов 3-1/3",
+    "slug": "siki-ekskluziv-transport",
+    "description": null
+  },
+  {
+    "name": "Сити такси-са",
+    "phone2": "071 373383",
+    "id": 34,
+    "phone": "02 15181",
+    "place": {
+      "slug": "skopje",
+      "id": 1,
+      "name": "Скопје"
+    },
+    "address": "Христијан Тодоровски Карпош 1",
+    "slug": "siti-taksi-sa",
+    "description": null
+  },
+  {
+    "name": "Сонце",
+    "phone2": "072 252525",
+    "id": 35,
+    "phone": "02 15100",
+    "place": {
+      "slug": "skopje",
+      "id": 1,
+      "name": "Скопје"
+    },
+    "address": "Партение Зографски 77-а",
+    "slug": "sonce",
+    "description": null
+  },
+  {
+    "name": "Сребрена ѕвезда 15-171",
+    "phone2": "",
+    "id": 36,
+    "phone": "02 15171",
+    "place": {
+      "slug": "skopje",
+      "id": 1,
+      "name": "Скопје"
+    },
+    "address": "бул.В.С.Бато 8-в",
+    "slug": "srebrena-dzvezda-15-171",
+    "description": null
+  },
+  {
+    "name": "Старо Водно 15-188",
+    "phone2": "070 309188",
+    "id": 37,
+    "phone": "02 15188",
+    "place": {
+      "slug": "skopje",
+      "id": 1,
+      "name": "Скопје"
+    },
+    "address": "Георги Димитров лок.8 лам.2",
+    "slug": "staro-vodno-15-188",
+    "description": null
+  },
+  {
+    "name": "Такси Еуроком 151-62",
+    "phone2": "078 215162",
+    "id": 38,
+    "phone": "072 215162",
+    "place": {
+      "slug": "skopje",
+      "id": 1,
+      "name": "Скопје"
+    },
+    "address": "Георги Попхристов б.б.",
+    "slug": "taksi-eurokom-151-62",
+    "description": null
+  },
+  {
+    "name": "Такси Илинден",
+    "phone2": "072 245734",
+    "id": 39,
+    "phone": "02 15055",
+    "place": {
+      "slug": "skopje",
+      "id": 1,
+      "name": "Скопје"
+    },
+    "address": "нас.Илинден б.б.",
+    "slug": "taksi-ilinden",
+    "description": null
+  },
+  {
+    "name": "Такси ИН",
+    "phone2": "078 215551",
+    "id": 40,
+    "phone": "02 15551",
+    "place": {
+      "slug": "skopje",
+      "id": 1,
+      "name": "Скопје"
+    },
+    "address": "Кеј 13-ти Ноември 28",
+    "slug": "taksi-in",
+    "description": null
+  },
+  {
+    "name": "Тахо 15-198",
+    "phone2": "071 315179",
+    "id": 41,
+    "phone": "02 15198",
+    "place": {
+      "slug": "skopje",
+      "id": 1,
+      "name": "Скопје"
+    },
+    "address": "Георги Димитров б.б.",
+    "slug": "taho-15-198",
+    "description": null
+  },
+  {
+    "name": "Теникс 15-194",
+    "phone2": "071 209194",
+    "id": 42,
+    "phone": "02 15194",
+    "place": {
+      "slug": "skopje",
+      "id": 1,
+      "name": "Скопје"
+    },
+    "address": "Ѓорче Петров 71-1/2",
+    "slug": "teniks-15-194",
+    "description": null
+  },
+  {
+    "name": "Трансфер Сервис",
+    "phone2": "",
+    "id": 43,
+    "phone": "070 217123",
+    "place": {
+      "slug": "skopje",
+      "id": 1,
+      "name": "Скопје"
+    },
+    "address": "Волгоградска 1/17",
+    "slug": "transfer-servis",
+    "description": null
+  },
+  {
+    "name": "Актуел",
+    "phone2": "046 1583",
+    "id": 44,
+    "phone": "046 271290",
+    "place": {
+      "slug": "ohrid",
+      "id": 2,
+      "name": "Охрид"
+    },
+    "address": "Шар Планина 13",
+    "slug": "aktuel",
+    "description": null
+  },
+  {
+    "name": "Бел Мерцедес 15-80",
+    "phone2": "",
+    "id": 45,
+    "phone": "046 263807",
+    "place": {
+      "slug": "ohrid",
+      "id": 2,
+      "name": "Охрид"
+    },
+    "address": "Париска Комуна 15",
+    "slug": "bel-mercedes-15-80",
+    "description": null
+  },
+  {
+    "name": "Бос",
+    "phone2": "046 270942",
+    "id": 46,
+    "phone": "046 1591",
+    "place": {
+      "slug": "ohrid",
+      "id": 2,
+      "name": "Охрид"
+    },
+    "address": "Гоце Делчев 233",
+    "slug": "bos",
+    "description": null
+  },
+  {
+    "name": "Такси Насковиќ Марјан",
+    "phone2": "",
+    "id": 47,
+    "phone": "070 591032",
+    "place": {
+      "slug": "skopje",
+      "id": 1,
+      "name": "Скопје"
+    },
+    "address": "Мите Богоевски 12/13",
+    "slug": "taksi-naskovikj-marjan",
+    "description": "Такси сервис со луксузно возило"
+  },
+  {
+    "name": "Даниго Веб",
+    "phone2": "",
+    "id": 48,
+    "phone": "078 222397",
+    "place": {
+      "slug": "ohrid",
+      "id": 2,
+      "name": "Охрид"
+    },
+    "address": "Мирче Ацев 33-a",
+    "slug": "danigo-veb",
+    "description": null
+  },
+  {
+    "name": "Делукс 1588",
+    "phone2": "046 264097",
+    "id": 49,
+    "phone": "046 266088",
+    "place": {
+      "slug": "ohrid",
+      "id": 2,
+      "name": "Охрид"
+    },
+    "address": "Клаудија втора б.б.",
+    "slug": "deluks-1588",
+    "description": null
+  },
+  {
+    "name": "Мерцедес 1592",
+    "phone2": "046 256956",
+    "id": 50,
+    "phone": "046 269192",
+    "place": {
+      "slug": "ohrid",
+      "id": 2,
+      "name": "Охрид"
+    },
+    "address": "Ѓорче Петров 7",
+    "slug": "mercedes-1592",
+    "description": null
+  },
+  {
+    "name": "Моби дик 15-95",
+    "phone2": "046 231800",
+    "id": 51,
+    "phone": "046 231800",
+    "place": {
+      "slug": "ohrid",
+      "id": 2,
+      "name": "Охрид"
+    },
+    "address": "7-ми Ноември 254",
+    "slug": "mobi-dik-15-95",
+    "description": null
+  },
+  {
+    "name": "Нова 13-000",
+    "phone2": "",
+    "id": 52,
+    "phone": "076 404040",
+    "place": {
+      "slug": "ohrid",
+      "id": 2,
+      "name": "Охрид"
+    },
+    "address": "15-ти Корпус б.б.",
+    "slug": "nova-13-000",
+    "description": null
+  },
+  {
+    "name": "Сузуки мт-1599",
+    "phone2": "046 266237",
+    "id": 53,
+    "phone": "046 266237",
+    "place": {
+      "slug": "ohrid",
+      "id": 2,
+      "name": "Охрид"
+    },
+    "address": "бул.Македонски Просветители лок.15",
+    "slug": "suzuki-mt-1599",
+    "description": null
+  },
+  {
+    "name": "Такси Тренд",
+    "phone2": "046 266237",
+    "id": 54,
+    "phone": "046 13444",
+    "place": {
+      "slug": "ohrid",
+      "id": 2,
+      "name": "Охрид"
+    },
+    "address": "бул.Македонски Просветители б.б. лок.15",
+    "slug": "taksi-trend",
+    "description": null
+  },
+  {
+    "name": "Ало-такси",
+    "phone2": "078 754777",
+    "id": 55,
+    "phone": "031 1591",
+    "place": {
+      "slug": "kumanovo",
+      "id": 3,
+      "name": "Куманово"
+    },
+    "address": "ул.4 бр.28",
+    "slug": "alo-taksi",
+    "description": null
+  },
+  {
+    "name": "Делукс 15-82",
+    "phone2": "031 431432",
+    "id": 56,
+    "phone": "031 431432",
+    "place": {
+      "slug": "kumanovo",
+      "id": 3,
+      "name": "Куманово"
+    },
+    "address": "ул.500 бр.55",
+    "slug": "deluks-15-82",
+    "description": null
+  },
+  {
+    "name": "Зоне-компани",
+    "phone2": "031 414288",
+    "id": 57,
+    "phone": "031 414288",
+    "place": {
+      "slug": "kumanovo",
+      "id": 3,
+      "name": "Куманово"
+    },
+    "address": "бул.3-та Македонска Ударна Бригада 144",
+    "slug": "zone-kompani",
+    "description": null
+  },
+  {
+    "name": "Принц 15-84",
+    "phone2": "",
+    "id": 58,
+    "phone": "031 445790",
+    "place": {
+      "slug": "kumanovo",
+      "id": 3,
+      "name": "Куманово"
+    },
+    "address": "ул.103 бр.1, Рајкова куќа",
+    "slug": "princ-15-84",
+    "description": null
+  },
+  {
+    "name": "Радевски-компанија",
+    "phone2": "031 414544",
+    "id": 59,
+    "phone": "031 415160",
+    "place": {
+      "slug": "kumanovo",
+      "id": 3,
+      "name": "Куманово"
+    },
+    "address": "Мирче Ацев 38",
+    "slug": "radevski-kompanija",
+    "description": null
+  },
+  {
+    "name": "Спид",
+    "phone2": "031 438190",
+    "id": 60,
+    "phone": "031 1596",
+    "place": {
+      "slug": "kumanovo",
+      "id": 3,
+      "name": "Куманово"
+    },
+    "address": "Косовски бригади 5",
+    "slug": "spid",
+    "description": null
+  },
+  {
+    "name": "Стара Бима",
+    "phone2": "031 1580",
+    "id": 61,
+    "phone": "031 414370",
+    "place": {
+      "slug": "kumanovo",
+      "id": 3,
+      "name": "Куманово"
+    },
+    "address": "Есперанто 14-а",
+    "slug": "stara-bima",
+    "description": null
+  },
+  {
+    "name": "Алфа 15-95",
+    "phone2": "",
+    "id": 62,
+    "phone": "047 1595",
+    "place": {
+      "slug": "bitola",
+      "id": 4,
+      "name": "Битола"
+    },
+    "address": "Кланица 7/10",
+    "slug": "alfa-15-95",
+    "description": null
+  },
+  {
+    "name": "Монгол 15-92",
+    "phone2": "072 252092",
+    "id": 63,
+    "phone": "047 1592",
+    "place": {
+      "slug": "bitola",
+      "id": 4,
+      "name": "Битола"
+    },
+    "address": "Краварски пат б.б.",
+    "slug": "mongol-15-92",
+    "description": null
+  },
+  {
+    "name": "Пелси 15-93",
+    "phone2": "075 311593",
+    "id": 64,
+    "phone": "047 236749",
+    "place": {
+      "slug": "bitola",
+      "id": 4,
+      "name": "Битола"
+    },
+    "address": "Кавала 12",
+    "slug": "pelsi-15-93",
+    "description": null
+  },
+  {
+    "name": "Тамара 15-91",
+    "phone2": "078 261591",
+    "id": 65,
+    "phone": "075 451591",
+    "place": {
+      "slug": "bitola",
+      "id": 4,
+      "name": "Битола"
+    },
+    "address": "Јорго Костовски 14",
+    "slug": "tamara-15-91",
+    "description": null
+  },
+  {
+    "name": "Теа 15-54",
+    "phone2": "072 261554",
+    "id": 66,
+    "phone": "047 1554",
+    "place": {
+      "slug": "bitola",
+      "id": 4,
+      "name": "Битола"
+    },
+    "address": "нас.Кланица 6/2",
+    "slug": "tea-15-54",
+    "description": null
+  },
+  {
+    "name": "Фаворит 15-91",
+    "phone2": "070 351456",
+    "id": 67,
+    "phone": "047 1591",
+    "place": {
+      "slug": "bitola",
+      "id": 4,
+      "name": "Битола"
+    },
+    "address": "Младинска 201",
+    "slug": "favorit-15-91",
+    "description": null
+  },
+  {
+    "name": "Цагер 15-86",
+    "phone2": "047 202621",
+    "id": 68,
+    "phone": "047 236735",
+    "place": {
+      "slug": "bitola",
+      "id": 4,
+      "name": "Битола"
+    },
+    "address": "Цар Самоил 75",
+    "slug": "cager-15-86",
+    "description": null
+  },
+  {
+    "name": "Арбекс-15-78",
+    "phone2": "070 256589",
+    "id": 69,
+    "phone": "044 332116",
+    "place": {
+      "slug": "tetovo",
+      "id": 5,
+      "name": "Тетово"
+    },
+    "address": "Дервиш Цара 28",
+    "slug": "arbeks-15-78",
+    "description": null
+  },
+  {
+    "name": "Бени",
+    "phone2": "044 330014",
+    "id": 70,
+    "phone": "044 1575",
+    "place": {
+      "slug": "tetovo",
+      "id": 5,
+      "name": "Тетово"
+    },
+    "address": "Киро Ристоски-Дрнц 33",
+    "slug": "beni",
+    "description": null
+  },
+  {
+    "name": "Бране-компани 15-77",
+    "phone2": "",
+    "id": 71,
+    "phone": "044 340626",
+    "place": {
+      "slug": "tetovo",
+      "id": 5,
+      "name": "Тетово"
+    },
+    "address": "ул.151 бр.3",
+    "slug": "brane-kompani-15-77",
+    "description": null
+  },
+  {
+    "name": "Ват Арбекс такси",
+    "phone2": "071 319446",
+    "id": 72,
+    "phone": "044 1578",
+    "place": {
+      "slug": "tetovo",
+      "id": 5,
+      "name": "Тетово"
+    },
+    "address": "Дервиш Цара 28",
+    "slug": "vat-arbeks-taksi",
+    "description": null
+  },
+  {
+    "name": "Гаги комерц",
+    "phone2": "044 344394",
+    "id": 73,
+    "phone": "044 1599",
+    "place": {
+      "slug": "tetovo",
+      "id": 5,
+      "name": "Тетово"
+    },
+    "address": "Ван Вардарска 14",
+    "slug": "gagi-komerc",
+    "description": null
+  },
+  {
+    "name": "Зоки комерц",
+    "phone2": "044 331767",
+    "id": 74,
+    "phone": "044 1591",
+    "place": {
+      "slug": "tetovo",
+      "id": 5,
+      "name": "Тетово"
+    },
+    "address": "В.С.Бато б.б",
+    "slug": "zoki-komerc",
+    "description": null
+  },
+  {
+    "name": "Краљ",
+    "phone2": "044 331289",
+    "id": 75,
+    "phone": "044 1570",
+    "place": {
+      "slug": "tetovo",
+      "id": 5,
+      "name": "Тетово"
+    },
+    "address": "Караорман 30",
+    "slug": "kralj",
+    "description": null
+  },
+  {
+    "name": "Латиф-комерц",
+    "phone2": "",
+    "id": 76,
+    "phone": "070 240086",
+    "place": {
+      "slug": "tetovo",
+      "id": 5,
+      "name": "Тетово"
+    },
+    "address": "с.Слатино",
+    "slug": "latif-komerc",
+    "description": null
+  },
+  {
+    "name": "Флорида",
+    "phone2": "044 341477",
+    "id": 77,
+    "phone": "070 256589",
+    "place": {
+      "slug": "tetovo",
+      "id": 5,
+      "name": "Тетово"
+    },
+    "address": "Дервиш Цара 28",
+    "slug": "florida",
+    "description": null
+  },
+  {
+    "name": "Хак 15-96",
+    "phone2": "044 330017",
+    "id": 78,
+    "phone": "044 1596",
+    "place": {
+      "slug": "tetovo",
+      "id": 5,
+      "name": "Тетово"
+    },
+    "address": "Илинденска 115",
+    "slug": "hak-15-96",
+    "description": null
+  },
+  {
+    "name": "Асови М&М",
+    "phone2": "",
+    "id": 79,
+    "phone": "033 277659",
+    "place": {
+      "slug": "kochani",
+      "id": 6,
+      "name": "Кочани"
+    },
+    "address": "Павлина Вељанова 26",
+    "slug": "asovi-m&m",
+    "description": null
+  },
+  {
+    "name": "Буба мара",
+    "phone2": "033 274985",
+    "id": 80,
+    "phone": "033 1588",
+    "place": {
+      "slug": "kochani",
+      "id": 6,
+      "name": "Кочани"
+    },
+    "address": "Ленинова б.б.",
+    "slug": "buba-mara",
+    "description": null
+  },
+  {
+    "name": "Изида 15-95",
+    "phone2": "078 341595",
+    "id": 81,
+    "phone": "033 274988",
+    "place": {
+      "slug": "kochani",
+      "id": 6,
+      "name": "Кочани"
+    },
+    "address": "с.Оризари",
+    "slug": "izida-15-95",
+    "description": null
+  },
+  {
+    "name": "Уникат 15-92",
+    "phone2": "033 274128",
+    "id": 82,
+    "phone": "033 271270",
+    "place": {
+      "slug": "kochani",
+      "id": 6,
+      "name": "Кочани"
+    },
+    "address": "Рајко Жинзифов 1",
+    "slug": "unikat-15-92",
+    "description": null
+  },
+  {
+    "name": "Астор",
+    "phone2": "070 637535",
+    "id": 83,
+    "phone": "043 366252",
+    "place": {
+      "slug": "demir-kapija",
+      "id": 7,
+      "name": "Демир Капија"
+    },
+    "address": "Партизанска 9",
+    "slug": "astor",
+    "description": null
+  },
+  {
+    "name": "Ас 15-35",
+    "phone2": "078 361535",
+    "id": 84,
+    "phone": "070 361535",
+    "place": {
+      "slug": "gevgelija",
+      "id": 8,
+      "name": "Гевгелија"
+    },
+    "address": "11-ти Октомври б.б.",
+    "slug": "as-15-35",
+    "description": null
+  },
+  {
+    "name": "М.Ј. Компани",
+    "phone2": "",
+    "id": 85,
+    "phone": "034 215888",
+    "place": {
+      "slug": "gevgelija",
+      "id": 8,
+      "name": "Гевгелија"
+    },
+    "address": "11-ти Октомври 6-a",
+    "slug": "m.j.-kompani",
+    "description": null
+  },
+  {
+    "name": "Хит 15-48",
+    "phone2": "",
+    "id": 86,
+    "phone": "034 611555",
+    "place": {
+      "slug": "gevgelija",
+      "id": 8,
+      "name": "Гевгелија"
+    },
+    "address": "Деко Ковачев 17",
+    "slug": "hit-15-48",
+    "description": null
+  },
+  {
+    "name": "Ат-Ива 15-81",
+    "phone2": "070 308998",
+    "id": 87,
+    "phone": "048 428033",
+    "place": {
+      "slug": "prilep",
+      "id": 9,
+      "name": "Прилеп"
+    },
+    "address": "Александар Македонски 103",
+    "slug": "at-iva-15-81",
+    "description": null
+  },
+  {
+    "name": "Елен",
+    "phone2": "048 437701",
+    "id": 88,
+    "phone": "048 1571",
+    "place": {
+      "slug": "prilep",
+      "id": 9,
+      "name": "Прилеп"
+    },
+    "address": "Јоска Јорданоски 76/6",
+    "slug": "elen",
+    "description": null
+  },
+  {
+    "name": "Милениум 15-73",
+    "phone2": "048 416219",
+    "id": 89,
+    "phone": "048 416218",
+    "place": {
+      "slug": "prilep",
+      "id": 9,
+      "name": "Прилеп"
+    },
+    "address": "Александар Македонски 124",
+    "slug": "milenium-15-73",
+    "description": null
+  },
+  {
+    "name": "Палас 1575",
+    "phone2": "048 422989",
+    "id": 90,
+    "phone": "048 1575",
+    "place": {
+      "slug": "prilep",
+      "id": 9,
+      "name": "Прилеп"
+    },
+    "address": "Пенка Котеска 89",
+    "slug": "palas-1575",
+    "description": null
+  },
+  {
+    "name": "Пет 15-55",
+    "phone2": "048 424430",
+    "id": 91,
+    "phone": "048 420460",
+    "place": {
+      "slug": "prilep",
+      "id": 9,
+      "name": "Прилеп"
+    },
+    "address": "Тризла 48",
+    "slug": "pet-15-55",
+    "description": null
+  },
+  {
+    "name": "Роман",
+    "phone2": "070 259499",
+    "id": 92,
+    "phone": "048 430001",
+    "place": {
+      "slug": "prilep",
+      "id": 9,
+      "name": "Прилеп"
+    },
+    "address": "Илија Василевски 12",
+    "slug": "roman",
+    "description": null
+  },
+  {
+    "name": "Роман 15-81",
+    "phone2": "048 415679",
+    "id": 93,
+    "phone": "070 349191",
+    "place": {
+      "slug": "prilep",
+      "id": 9,
+      "name": "Прилеп"
+    },
+    "address": "Нил Армстронг 12",
+    "slug": "roman-15-81",
+    "description": null
+  },
+  {
+    "name": "Бако 15-97",
+    "phone2": "072 311597",
+    "id": 94,
+    "phone": "032 381597",
+    "place": {
+      "slug": "shtip",
+      "id": 10,
+      "name": "Штип"
+    },
+    "address": "Сутјеска б.б.",
+    "slug": "bako-15-97",
+    "description": null
+  },
+  {
+    "name": "Биг смајли",
+    "phone2": "",
+    "id": 95,
+    "phone": "032 1592",
+    "place": {
+      "slug": "shtip",
+      "id": 10,
+      "name": "Штип"
+    },
+    "address": "Борис Крајгер б.б.",
+    "slug": "big-smajli",
+    "description": null
+  },
+  {
+    "name": "Де лукс 15-60",
+    "phone2": "032 392560",
+    "id": 96,
+    "phone": "032 1560",
+    "place": {
+      "slug": "shtip",
+      "id": 10,
+      "name": "Штип"
+    },
+    "address": "Нобелова 3",
+    "slug": "de-luks-15-60",
+    "description": null
+  },
+  {
+    "name": "Ла коста 15-77",
+    "phone2": "032 609277",
+    "id": 97,
+    "phone": "032 1577",
+    "place": {
+      "slug": "shtip",
+      "id": 10,
+      "name": "Штип"
+    },
+    "address": "Загребска 9",
+    "slug": "la-kosta-15-77",
+    "description": null
+  },
+  {
+    "name": "Ортакси 15-88",
+    "phone2": "",
+    "id": 98,
+    "phone": "032 1588",
+    "place": {
+      "slug": "shtip",
+      "id": 10,
+      "name": "Штип"
+    },
+    "address": "Васил Доганджиски 57",
+    "slug": "ortaksi-15-88",
+    "description": null
+  },
+  {
+    "name": "Бамби дримс 2",
+    "phone2": "070 218591",
+    "id": 99,
+    "phone": "034 1591",
+    "place": {
+      "slug": "strumica",
+      "id": 11,
+      "name": "Струмица"
+    },
+    "address": "Младинска 201",
+    "slug": "bambi-drims-2",
+    "description": null
+  },
+  {
+    "name": "Блек-шмек 1566",
+    "phone2": "070 310660",
+    "id": 100,
+    "phone": "034 347175",
+    "place": {
+      "slug": "strumica",
+      "id": 11,
+      "name": "Струмица"
+    },
+    "address": "Братство Единство 36",
+    "slug": "blek-shmek-1566",
+    "description": null
+  },
+  {
+    "name": "Екстра-1598",
+    "phone2": "078 291598",
+    "id": 101,
+    "phone": "034 1598",
+    "place": {
+      "slug": "strumica",
+      "id": 11,
+      "name": "Струмица"
+    },
+    "address": "Маршал Тито 172",
+    "slug": "ekstra-1598",
+    "description": null
+  },
+  {
+    "name": "Ново такси",
+    "phone2": "",
+    "id": 102,
+    "phone": "032 1599",
+    "place": {
+      "slug": "shtip",
+      "id": 10,
+      "name": "Штип"
+    },
+    "address": "бул.ЈНА 26-а лок.4",
+    "slug": "novo-taksi",
+    "description": "8-ми Ноември Булевар ЈНА до градинка"
+  },
+  {
+    "name": "Нивито 15-82",
+    "phone2": "",
+    "id": 103,
+    "phone": "032 1582",
+    "place": {
+      "slug": "shtip",
+      "id": 10,
+      "name": "Штип"
+    },
+    "address": "бул.ЈНА б.б.",
+    "slug": "nivito-15-82",
+    "description": "До полицијата"
+  },
+  {
+    "name": "Див Сеат",
+    "phone2": "",
+    "id": 104,
+    "phone": "032 1565",
+    "place": {
+      "slug": "shtip",
+      "id": 10,
+      "name": "Штип"
+    },
+    "address": "Сајбие Демир б.б.",
+    "slug": "div-seat",
+    "description": "Сењак"
+  },
+  {
+    "name": "Такси-Нова 15-78",
+    "phone2": "",
+    "id": 105,
+    "phone": "048 1578",
+    "place": {
+      "slug": "prilep",
+      "id": 9,
+      "name": "Прилеп"
+    },
+    "address": "Егејска 58",
+    "slug": "taksi-nova-15-78",
+    "description": "во близина на биро за вработување"
+  },
+  {
+    "name": "Такси Лион 15-77",
+    "phone2": "",
+    "id": 106,
+    "phone": "048 412528",
+    "place": {
+      "slug": "prilep",
+      "id": 9,
+      "name": "Прилеп"
+    },
+    "address": "Ладо Лапецот 19",
+    "slug": "taksi-lion-15-77",
+    "description": null
+  },
+  {
+    "name": "Палас 15-75",
+    "phone2": "",
+    "id": 107,
+    "phone": "048 422989",
+    "place": {
+      "slug": "prilep",
+      "id": 9,
+      "name": "Прилеп"
+    },
+    "address": "Пенка Котеска 89",
+    "slug": "palas-15-75",
+    "description": "на рид"
+  },
+  {
+    "name": "Нова 15-78",
+    "phone2": "",
+    "id": 108,
+    "phone": "048 428474",
+    "place": {
+      "slug": "prilep",
+      "id": 9,
+      "name": "Прилеп"
+    },
+    "address": "Егејска 58",
+    "slug": "nova-15-78",
+    "description": null
+  },
+  {
+    "name": "Мише Шпед",
+    "phone2": "",
+    "id": 109,
+    "phone": "076 296030",
+    "place": {
+      "slug": "prilep",
+      "id": 9,
+      "name": "Прилеп"
+    },
+    "address": "Мирче Ацев 99",
+    "slug": "mishe-shped",
+    "description": null
+  },
+  {
+    "name": "Лион 15-77",
+    "phone2": "",
+    "id": 110,
+    "phone": "048 412528",
+    "place": {
+      "slug": "prilep",
+      "id": 9,
+      "name": "Прилеп"
+    },
+    "address": "Ладо Лапецот 19",
+    "slug": "lion-15-77",
+    "description": null
+  },
+  {
+    "name": "Евро Такси Компани 15-93",
+    "phone2": "",
+    "id": 111,
+    "phone": "048 401222",
+    "place": {
+      "slug": "prilep",
+      "id": 9,
+      "name": "Прилеп"
+    },
+    "address": "Самоилова 13-4/17",
+    "slug": "evro-taksi-kompani-15-93",
+    "description": "зграда Табана"
+  },
+  {
+    "name": "Де-ни Такси",
+    "phone2": "",
+    "id": 112,
+    "phone": "048 419195",
+    "place": {
+      "slug": "prilep",
+      "id": 9,
+      "name": "Прилеп"
+    },
+    "address": "Александар Македонски 160",
+    "slug": "de-ni-taksi",
+    "description": null
+  },
+  {
+    "name": "Ндерими",
+    "phone2": "",
+    "id": 113,
+    "phone": "031 414121",
+    "place": {
+      "slug": "kumanovo",
+      "id": 3,
+      "name": "Куманово"
+    },
+    "address": "Поток Серава 71",
+    "slug": "nderimi",
+    "description": null
+  },
+  {
+    "name": "Гонзалес-15-77",
+    "phone2": "",
+    "id": 114,
+    "phone": "070 207576",
+    "place": {
+      "slug": "bitola",
+      "id": 4,
+      "name": "Битола"
+    },
+    "address": "Јанко Палигора б.б.",
+    "slug": "gonzales-15-77",
+    "description": null
+  },
+  {
+    "name": "Коки Такси",
+    "phone2": "",
+    "id": 115,
+    "phone": "044 1590",
+    "place": {
+      "slug": "tetovo",
+      "id": 5,
+      "name": "Тетово"
+    },
+    "address": "Маршал Тито 134",
+    "slug": "koki-taksi",
+    "description": "Стара библиотека"
+  },
+  {
+    "name": "Есперо 15-51",
+    "phone2": "",
+    "id": 116,
+    "phone": "034 355185",
+    "place": {
+      "slug": "strumica",
+      "id": 11,
+      "name": "Струмица"
+    },
+    "address": "Маршал Тито б.б., Ново Село",
+    "slug": "espero-15-51",
+    "description": null
+  },
+  {
+    "name": "Љашо",
+    "phone2": "034 329008",
+    "id": 117,
+    "phone": "034 353015",
+    "place": {
+      "slug": "strumica",
+      "id": 11,
+      "name": "Струмица"
+    },
+    "address": "с.Ангелци б.б.",
+    "slug": "ljasho",
+    "description": null
+  },
+  {
+    "name": "Радио такси 1588",
+    "phone2": "070 253250",
+    "id": 118,
+    "phone": "034 1588",
+    "place": {
+      "slug": "strumica",
+      "id": 11,
+      "name": "Струмица"
+    },
+    "address": "11-ти Октомври 17/а",
+    "slug": "radio-taksi-1588",
+    "description": null
+  },
+  {
+    "name": "Радио Такси 15-60",
+    "phone2": "070 358444",
+    "id": 119,
+    "phone": "034 1560",
+    "place": {
+      "slug": "strumica",
+      "id": 11,
+      "name": "Струмица"
+    },
+    "address": "Маршал Тито 161",
+    "slug": "radio-taksi-15-60",
+    "description": null
+  },
+  {
+    "name": "Бамби дрим 15-91",
+    "phone2": "078 769352",
+    "id": 120,
+    "phone": "043 222291",
+    "place": {
+      "slug": "veles",
+      "id": 12,
+      "name": "Велес"
+    },
+    "address": "Благој Ѓорев б.б.",
+    "slug": "bambi-drim-15-91",
+    "description": null
+  },
+  {
+    "name": "Денс",
+    "phone2": "043 221815",
+    "id": 121,
+    "phone": "043 222188",
+    "place": {
+      "slug": "veles",
+      "id": 12,
+      "name": "Велес"
+    },
+    "address": "Благој Ѓорев 13",
+    "slug": "dens",
+    "description": null
+  },
+  {
+    "name": "Ирена",
+    "phone2": "075 222190",
+    "id": 122,
+    "phone": "043 1590",
+    "place": {
+      "slug": "veles",
+      "id": 12,
+      "name": "Велес"
+    },
+    "address": "Димко Најдов 60",
+    "slug": "irena",
+    "description": null
+  },
+  {
+    "name": "Мартин Травел",
+    "phone2": "043 212116",
+    "id": 123,
+    "phone": "043 222255",
+    "place": {
+      "slug": "veles",
+      "id": 12,
+      "name": "Велес"
+    },
+    "address": "Борис Трајковски 18 (Ленинова)",
+    "slug": "martin-travel",
+    "description": null
+  },
+  {
+    "name": "Пан такси 15-92",
+    "phone2": "043 212116",
+    "id": 124,
+    "phone": "043 222192",
+    "place": {
+      "slug": "veles",
+      "id": 12,
+      "name": "Велес"
+    },
+    "address": "Борис Трајковски 18 (Ленинова)",
+    "slug": "pan-taksi-15-92",
+    "description": null
+  },
+  {
+    "name": "Такси Здружение 1593",
+    "phone2": "043 211193",
+    "id": 125,
+    "phone": "043 222171",
+    "place": {
+      "slug": "veles",
+      "id": 12,
+      "name": "Велес"
+    },
+    "address": "Тодор Јанев 30-а",
+    "slug": "taksi-zdruzhenie-1593",
+    "description": null
+  },
+  {
+    "name": "Такси Нова 1595",
+    "phone2": "078 251595",
+    "id": 126,
+    "phone": "043 222170",
+    "place": {
+      "slug": "veles",
+      "id": 12,
+      "name": "Велес"
+    },
+    "address": "Благој Ѓорев 104-а",
+    "slug": "taksi-nova-1595",
+    "description": null
+  },
+  {
+    "name": "Бејран-1516",
+    "phone2": "",
+    "id": 127,
+    "phone": "047 451616",
+    "place": {
+      "slug": "resen",
+      "id": 13,
+      "name": "Ресен"
+    },
+    "address": "Мите Богоевски б.б.",
+    "slug": "bejran-1516",
+    "description": null
+  },
+  {
+    "name": "Конзул 15-14",
+    "phone2": "",
+    "id": 128,
+    "phone": "047 489501",
+    "place": {
+      "slug": "resen",
+      "id": 13,
+      "name": "Ресен"
+    },
+    "address": "с.Царев Двор",
+    "slug": "konzul-15-14",
+    "description": null
+  },
+  {
+    "name": "Бела",
+    "phone2": "045 221033",
+    "id": 129,
+    "phone": "045 1593",
+    "place": {
+      "slug": "kichevo",
+      "id": 14,
+      "name": "Кичево"
+    },
+    "address": "Тане Цалески 11",
+    "slug": "bela",
+    "description": null
+  },
+  {
+    "name": "В.Ангел",
+    "phone2": "",
+    "id": 130,
+    "phone": "045 223119",
+    "place": {
+      "slug": "kichevo",
+      "id": 14,
+      "name": "Кичево"
+    },
+    "address": "Мито Јовески 22",
+    "slug": "v.angel",
+    "description": null
+  },
+  {
+    "name": "Пане",
+    "phone2": "",
+    "id": 131,
+    "phone": "070 533350",
+    "place": {
+      "slug": "kichevo",
+      "id": 14,
+      "name": "Кичево"
+    },
+    "address": "Солунска б.б.",
+    "slug": "pane",
+    "description": null
+  },
+  {
+    "name": "Срна",
+    "phone2": "",
+    "id": 132,
+    "phone": "045 221484",
+    "place": {
+      "slug": "kichevo",
+      "id": 14,
+      "name": "Кичево"
+    },
+    "address": "4-ти Јули 184/4",
+    "slug": "srna",
+    "description": null
+  },
+  {
+    "name": "Блато",
+    "phone2": "033 471666",
+    "id": 133,
+    "phone": "033 470025",
+    "place": {
+      "slug": "berovo",
+      "id": 15,
+      "name": "Берово"
+    },
+    "address": "Брдославица б.б., нас. Блато",
+    "slug": "blato",
+    "description": null
+  },
+  {
+    "name": "Централ 15-30",
+    "phone2": "033 470373",
+    "id": 134,
+    "phone": "033 1530",
+    "place": {
+      "slug": "berovo",
+      "id": 15,
+      "name": "Берово"
+    },
+    "address": "Илинденска 2",
+    "slug": "central-15-30",
+    "description": null
+  },
+  {
+    "name": "Боби",
+    "phone2": "077 577429",
+    "id": 135,
+    "phone": "034 223333",
+    "place": {
+      "slug": "bogdanci",
+      "id": 16,
+      "name": "Богданци"
+    },
+    "address": "Мирчо Џочков 3",
+    "slug": "bobi",
+    "description": null
+  },
+  {
+    "name": "Гоки",
+    "phone2": "070 925922",
+    "id": 136,
+    "phone": "034 223355",
+    "place": {
+      "slug": "bogdanci",
+      "id": 16,
+      "name": "Богданци"
+    },
+    "address": "Маршал Тито б.б.",
+    "slug": "goki",
+    "description": null
+  },
+  {
+    "name": "Мил зоран",
+    "phone2": "078 747244",
+    "id": 137,
+    "phone": "034 222522",
+    "place": {
+      "slug": "bogdanci",
+      "id": 16,
+      "name": "Богданци"
+    },
+    "address": "Егејска 37",
+    "slug": "mil-zoran",
+    "description": null
+  },
+  {
+    "name": "Бо-ком 15-52",
+    "phone2": "",
+    "id": 138,
+    "phone": "032 481996",
+    "place": {
+      "slug": "probishtip",
+      "id": 17,
+      "name": "Пробиштип"
+    },
+    "address": "28-ми Август 17",
+    "slug": "bo-kom-15-52",
+    "description": null
+  },
+  {
+    "name": "Д`гна",
+    "phone2": "032 480880",
+    "id": 139,
+    "phone": "032 480880",
+    "place": {
+      "slug": "probishtip",
+      "id": 17,
+      "name": "Пробиштип"
+    },
+    "address": "9-ти Мај 4",
+    "slug": "d`gna",
+    "description": null
+  },
+  {
+    "name": "Буба Мара 15-30",
+    "phone2": "078 451530",
+    "id": 140,
+    "phone": "078 737576",
+    "place": {
+      "slug": "sveti-nikole",
       "id": 19,
-      "phone": "02 15152",
-      "place": {
-        "slug": "skopje",
-        "id": 1,
-        "name": "Скопје"
-      },
-      "address": "Перо Наков б.б., п.фах 18",
-      "slug": "nashe-taksi-15-152",
-      "description": null
+      "name": "Свети Николе"
     },
-    {
-      "name": "Палас 15-166",
-      "phone2": "02 3086200",
+    "address": "Крсте Мисирков 26",
+    "slug": "buba-mara-15-30",
+    "description": null
+  },
+  {
+    "name": "Буби",
+    "phone2": "",
+    "id": 141,
+    "phone": "033 441496",
+    "place": {
+      "slug": "pehchevo",
       "id": 20,
-      "phone": "02 15166",
-      "place": {
-        "slug": "skopje",
-        "id": 1,
-        "name": "Скопје"
-      },
-      "address": "Козле 88-б/1-4/6",
-      "slug": "palas-15-166",
-      "description": null
+      "name": "Пехчево"
     },
-    {
-      "name": "Панорама 15-199",
-      "phone2": "071 315199",
-      "id": 21,
-      "phone": "02 15199",
-      "place": {
-        "slug": "skopje",
-        "id": 1,
-        "name": "Скопје"
-      },
-      "address": "бул.В.С.Бато 11 лок.3",
-      "slug": "panorama-15-199",
-      "description": null
-    },
-    {
-      "name": "Парк",
-      "phone2": "",
+    "address": "Борис Кидрич 42",
+    "slug": "bubi",
+    "description": null
+  },
+  {
+    "name": "Веднаш",
+    "phone2": "043 416001",
+    "id": 142,
+    "phone": "043 419999",
+    "place": {
+      "slug": "kavadarci",
       "id": 22,
-      "phone": "02 15158",
-      "place": {
-        "slug": "skopje",
-        "id": 1,
-        "name": "Скопје"
-      },
-      "address": "Коста Новаковиќ 50/4",
-      "slug": "park",
-      "description": null
+      "name": "Кавадарци"
     },
-    {
-      "name": "Браќа Петридови",
-      "phone2": "075 365365",
+    "address": "1-ви Мај 16",
+    "slug": "vednash",
+    "description": null
+  },
+  {
+    "name": "Викни",
+    "phone2": "078 445554",
+    "id": 143,
+    "phone": "071 234222",
+    "place": {
+      "slug": "kavadarci",
+      "id": 22,
+      "name": "Кавадарци"
+    },
+    "address": "27-ми Март 69",
+    "slug": "vikni",
+    "description": null
+  },
+  {
+    "name": "Виножито Бис",
+    "phone2": "070 219191",
+    "id": 144,
+    "phone": "043 410564",
+    "place": {
+      "slug": "kavadarci",
+      "id": 22,
+      "name": "Кавадарци"
+    },
+    "address": "Бел Камен 16",
+    "slug": "vinozhito-bis",
+    "description": null
+  },
+  {
+    "name": "Виножито ВБ",
+    "phone2": "075 320100",
+    "id": 145,
+    "phone": "043 415100",
+    "place": {
+      "slug": "kavadarci",
+      "id": 22,
+      "name": "Кавадарци"
+    },
+    "address": "Мито Хаџивасилев 91",
+    "slug": "vinozhito-vb",
+    "description": null
+  },
+  {
+    "name": "Екстра",
+    "phone2": "043 400301",
+    "id": 146,
+    "phone": "043 400300",
+    "place": {
+      "slug": "kavadarci",
+      "id": 22,
+      "name": "Кавадарци"
+    },
+    "address": "Сремски Фронт 2",
+    "slug": "ekstra",
+    "description": null
+  },
+  {
+    "name": "Екстрабус",
+    "phone2": "043 420020",
+    "id": 147,
+    "phone": "043 420020",
+    "place": {
+      "slug": "kavadarci",
+      "id": 22,
+      "name": "Кавадарци"
+    },
+    "address": "Илинденска 115",
+    "slug": "ekstrabus",
+    "description": null
+  },
+  {
+    "name": "Кам смарк",
+    "phone2": "070 219555",
+    "id": 148,
+    "phone": "043 1568",
+    "place": {
+      "slug": "kavadarci",
+      "id": 22,
+      "name": "Кавадарци"
+    },
+    "address": "бул.Македонија 3-ѓ",
+    "slug": "kam-smark",
+    "description": null
+  },
+  {
+    "name": "Комета",
+    "phone2": "",
+    "id": 149,
+    "phone": "043 418555",
+    "place": {
+      "slug": "kavadarci",
+      "id": 22,
+      "name": "Кавадарци"
+    },
+    "address": "Моша Пијаде 6-3/4",
+    "slug": "kometa",
+    "description": null
+  },
+  {
+    "name": "Лаки 1577",
+    "phone2": "",
+    "id": 150,
+    "phone": "043 412456",
+    "place": {
+      "slug": "kavadarci",
+      "id": 22,
+      "name": "Кавадарци"
+    },
+    "address": "Бошавска 10",
+    "slug": "laki-1577",
+    "description": null
+  },
+  {
+    "name": "Петкови Експрес",
+    "phone2": "071 354111",
+    "id": 151,
+    "phone": "075 431059",
+    "place": {
+      "slug": "kavadarci",
+      "id": 22,
+      "name": "Кавадарци"
+    },
+    "address": "Диме Чекоров 15",
+    "slug": "petkovi-ekspres",
+    "description": null
+  },
+  {
+    "name": "Такси Буги",
+    "phone2": "071 299955",
+    "id": 152,
+    "phone": "043 13555",
+    "place": {
+      "slug": "kavadarci",
+      "id": 22,
+      "name": "Кавадарци"
+    },
+    "address": "Мито Хаџивасилев б.б.",
+    "slug": "taksi-bugi",
+    "description": null
+  },
+  {
+    "name": "Голди Експрес",
+    "phone2": "075 215215",
+    "id": 153,
+    "phone": "042 1591",
+    "place": {
+      "slug": "gostivar",
       "id": 23,
-      "phone": "043 365365",
-      "place": {
-        "slug": "negotino",
-        "id": 18,
-        "name": "Неготино"
-      },
-      "address": "Вељко Влаховиќ 18",
-      "slug": "brakja-petridovi",
-      "description": null
+      "name": "Гостивар"
     },
-    {
-      "name": "ТП Цило",
-      "phone2": "",
+    "address": "Никола Парапунов 39",
+    "slug": "goldi-ekspres",
+    "description": null
+  },
+  {
+    "name": "Далас",
+    "phone2": "042 222110",
+    "id": 154,
+    "phone": "042 1581",
+    "place": {
+      "slug": "gostivar",
+      "id": 23,
+      "name": "Гостивар"
+    },
+    "address": "ЈНА 231",
+    "slug": "dalas",
+    "description": null
+  },
+  {
+    "name": "Пинк",
+    "phone2": "078 286019",
+    "id": 155,
+    "phone": "042 1508",
+    "place": {
+      "slug": "gostivar",
+      "id": 23,
+      "name": "Гостивар"
+    },
+    "address": "Никола Парапунов 6",
+    "slug": "pink",
+    "description": null
+  },
+  {
+    "name": "Пони експрес",
+    "phone2": "042 212473",
+    "id": 156,
+    "phone": "042 1582",
+    "place": {
+      "slug": "gostivar",
+      "id": 23,
+      "name": "Гостивар"
+    },
+    "address": "18-ти Ноември 8",
+    "slug": "poni-ekspres",
+    "description": null
+  },
+  {
+    "name": "Рио",
+    "phone2": "042 222847",
+    "id": 157,
+    "phone": "042 1595",
+    "place": {
+      "slug": "gostivar",
+      "id": 23,
+      "name": "Гостивар"
+    },
+    "address": "Светозар Пеповски 8",
+    "slug": "rio",
+    "description": null
+  },
+  {
+    "name": "Такси Гранде",
+    "phone2": "078 351585",
+    "id": 158,
+    "phone": "042 1585",
+    "place": {
+      "slug": "gostivar",
+      "id": 23,
+      "name": "Гостивар"
+    },
+    "address": "Гече Гаврилоски 18",
+    "slug": "taksi-grande",
+    "description": null
+  },
+  {
+    "name": "Такси Еуро",
+    "phone2": "071 638528",
+    "id": 159,
+    "phone": "042 1589",
+    "place": {
+      "slug": "gostivar",
+      "id": 23,
+      "name": "Гостивар"
+    },
+    "address": "Младен Симоновски 26",
+    "slug": "taksi-euro",
+    "description": null
+  },
+  {
+    "name": "Такси 77",
+    "phone2": "075 488266",
+    "id": 160,
+    "phone": "042 1577",
+    "place": {
+      "slug": "gostivar",
+      "id": 23,
+      "name": "Гостивар"
+    },
+    "address": "Тоде Богданоски 1",
+    "slug": "taksi-77",
+    "description": null
+  },
+  {
+    "name": "Дане",
+    "phone2": "",
+    "id": 161,
+    "phone": "034 381464",
+    "place": {
+      "slug": "valandovo",
       "id": 24,
-      "phone": "043 365365",
-      "place": {
-        "slug": "negotino",
-        "id": 18,
-        "name": "Неготино"
-      },
-      "address": "Вељко Влаховиќ 18",
-      "slug": "tp-cilo",
-      "description": null
+      "name": "Валандово"
     },
-    {
-      "name": "Плава лагуна 15-192",
-      "phone2": "",
+    "address": "Маршал Тито 15",
+    "slug": "dane",
+    "description": null
+  },
+  {
+    "name": "Делта-1545",
+    "phone2": "",
+    "id": 162,
+    "phone": "033 360195",
+    "place": {
+      "slug": "vinica",
       "id": 25,
-      "phone": "02 15192",
-      "place": {
-        "slug": "skopje",
-        "id": 1,
-        "name": "Скопје"
-      },
-      "address": "Петар Поп Арсов 17 лок.12",
-      "slug": "plava-laguna-15-192",
-      "description": null
+      "name": "Виница"
     },
-    {
-      "name": "Потрчко",
-      "phone2": "02 5211416",
-      "id": 26,
-      "phone": "02 5211416",
-      "place": {
-        "slug": "skopje",
-        "id": 1,
-        "name": "Скопје"
-      },
-      "address": "Лазар Димитров 29-б",
-      "slug": "potrchko",
-      "description": null
+    "address": "Григор Прличев 26",
+    "slug": "delta-1545",
+    "description": null
+  },
+  {
+    "name": "Пјер",
+    "phone2": "",
+    "id": 163,
+    "phone": "070 781313",
+    "place": {
+      "slug": "vinica",
+      "id": 25,
+      "name": "Виница"
     },
-    {
-      "name": "Примус",
-      "phone2": "070 216765",
+    "address": "Климент Охридски 8",
+    "slug": "pjer",
+    "description": null
+  },
+  {
+    "name": "Марјан 15-65",
+    "phone2": "070 859333",
+    "id": 164,
+    "phone": "046 780185",
+    "place": {
+      "slug": "struga",
       "id": 27,
-      "phone": "02 2722777",
-      "place": {
-        "slug": "skopje",
-        "id": 1,
-        "name": "Скопје"
-      },
-      "address": "Локов 3-1/3",
-      "slug": "primus",
-      "description": null
-    },
-    {
-      "name": "Пролет 15-160",
-      "phone2": "",
-      "id": 28,
-      "phone": "02 15160",
-      "place": {
-        "slug": "skopje",
-        "id": 1,
-        "name": "Скопје"
-      },
-      "address": "Јани Лукровски 8-1/3",
-      "slug": "prolet-15-160",
-      "description": null
-    },
-    {
-      "name": "Пулсар 15-197",
-      "phone2": "",
-      "id": 29,
-      "phone": "02 15197",
-      "place": {
-        "slug": "skopje",
-        "id": 1,
-        "name": "Скопје"
-      },
-      "address": "бул.К.Ј.Питу 22",
-      "slug": "pulsar-15-197",
-      "description": null
-    },
-    {
-      "name": "Пулстарс 15-177",
-      "phone2": "",
-      "id": 30,
-      "phone": "02 3134499",
-      "place": {
-        "slug": "skopje",
-        "id": 1,
-        "name": "Скопје"
-      },
-      "address": "Васил Ѓоргов 29/1",
-      "slug": "pulstars-15-177",
-      "description": null
-    },
-    {
-      "name": "Рива 15-161",
-      "phone2": "",
-      "id": 31,
-      "phone": "02 15161",
-      "place": {
-        "slug": "skopje",
-        "id": 1,
-        "name": "Скопје"
-      },
-      "address": "Скупи б.б.",
-      "slug": "riva-15-161",
-      "description": null
-    },
-    {
-      "name": "Ројал",
-      "phone2": "02 3080938",
-      "id": 32,
-      "phone": "02 3080938",
-      "place": {
-        "slug": "skopje",
-        "id": 1,
-        "name": "Скопје"
-      },
-      "address": "Кленоец 61-б-1/1",
-      "slug": "rojal",
-      "description": null
-    },
-    {
-      "name": "Сики Ексклузив Транспорт",
-      "phone2": "02 2722777",
-      "id": 33,
-      "phone": "070 216765",
-      "place": {
-        "slug": "skopje",
-        "id": 1,
-        "name": "Скопје"
-      },
-      "address": "Локов 3-1/3",
-      "slug": "siki-ekskluziv-transport",
-      "description": null
-    },
-    {
-      "name": "Сити такси-са",
-      "phone2": "071 373383",
-      "id": 34,
-      "phone": "02 15181",
-      "place": {
-        "slug": "skopje",
-        "id": 1,
-        "name": "Скопје"
-      },
-      "address": "Христијан Тодоровски Карпош 1",
-      "slug": "siti-taksi-sa",
-      "description": null
-    },
-    {
-      "name": "Сонце",
-      "phone2": "072 252525",
-      "id": 35,
-      "phone": "02 15100",
-      "place": {
-        "slug": "skopje",
-        "id": 1,
-        "name": "Скопје"
-      },
-      "address": "Партение Зографски 77-а",
-      "slug": "sonce",
-      "description": null
-    },
-    {
-      "name": "Сребрена ѕвезда 15-171",
-      "phone2": "",
-      "id": 36,
-      "phone": "02 15171",
-      "place": {
-        "slug": "skopje",
-        "id": 1,
-        "name": "Скопје"
-      },
-      "address": "бул.В.С.Бато 8-в",
-      "slug": "srebrena-dzvezda-15-171",
-      "description": null
-    },
-    {
-      "name": "Старо Водно 15-188",
-      "phone2": "070 309188",
-      "id": 37,
-      "phone": "02 15188",
-      "place": {
-        "slug": "skopje",
-        "id": 1,
-        "name": "Скопје"
-      },
-      "address": "Георги Димитров лок.8 лам.2",
-      "slug": "staro-vodno-15-188",
-      "description": null
-    },
-    {
-      "name": "Такси Еуроком 151-62",
-      "phone2": "078 215162",
-      "id": 38,
-      "phone": "072 215162",
-      "place": {
-        "slug": "skopje",
-        "id": 1,
-        "name": "Скопје"
-      },
-      "address": "Георги Попхристов б.б.",
-      "slug": "taksi-eurokom-151-62",
-      "description": null
-    },
-    {
-      "name": "Такси Илинден",
-      "phone2": "072 245734",
-      "id": 39,
-      "phone": "02 15055",
-      "place": {
-        "slug": "skopje",
-        "id": 1,
-        "name": "Скопје"
-      },
-      "address": "нас.Илинден б.б.",
-      "slug": "taksi-ilinden",
-      "description": null
-    },
-    {
-      "name": "Такси ИН",
-      "phone2": "078 215551",
-      "id": 40,
-      "phone": "02 15551",
-      "place": {
-        "slug": "skopje",
-        "id": 1,
-        "name": "Скопје"
-      },
-      "address": "Кеј 13-ти Ноември 28",
-      "slug": "taksi-in",
-      "description": null
-    },
-    {
-      "name": "Тахо 15-198",
-      "phone2": "071 315179",
-      "id": 41,
-      "phone": "02 15198",
-      "place": {
-        "slug": "skopje",
-        "id": 1,
-        "name": "Скопје"
-      },
-      "address": "Георги Димитров б.б.",
-      "slug": "taho-15-198",
-      "description": null
-    },
-    {
-      "name": "Теникс 15-194",
-      "phone2": "071 209194",
-      "id": 42,
-      "phone": "02 15194",
-      "place": {
-        "slug": "skopje",
-        "id": 1,
-        "name": "Скопје"
-      },
-      "address": "Ѓорче Петров 71-1/2",
-      "slug": "teniks-15-194",
-      "description": null
-    },
-    {
-      "name": "Трансфер Сервис",
-      "phone2": "",
-      "id": 43,
-      "phone": "070 217123",
-      "place": {
-        "slug": "skopje",
-        "id": 1,
-        "name": "Скопје"
-      },
-      "address": "Волгоградска 1/17",
-      "slug": "transfer-servis",
-      "description": null
-    },
-    {
-      "name": "Актуел",
-      "phone2": "046 1583",
-      "id": 44,
-      "phone": "046 271290",
-      "place": {
-        "slug": "ohrid",
-        "id": 2,
-        "name": "Охрид"
-      },
-      "address": "Шар Планина 13",
-      "slug": "aktuel",
-      "description": null
-    },
-    {
-      "name": "Бел Мерцедес 15-80",
-      "phone2": "",
-      "id": 45,
-      "phone": "046 263807",
-      "place": {
-        "slug": "ohrid",
-        "id": 2,
-        "name": "Охрид"
-      },
-      "address": "Париска Комуна 15",
-      "slug": "bel-mercedes-15-80",
-      "description": null
-    },
-    {
-      "name": "Бос",
-      "phone2": "046 270942",
-      "id": 46,
-      "phone": "046 1591",
-      "place": {
-        "slug": "ohrid",
-        "id": 2,
-        "name": "Охрид"
-      },
-      "address": "Гоце Делчев 233",
-      "slug": "bos",
-      "description": null
-    },
-    {
-      "name": "Такси Насковиќ Марјан",
-      "phone2": "",
-      "id": 47,
-      "phone": "070 591032",
-      "place": {
-        "slug": "skopje",
-        "id": 1,
-        "name": "Скопје"
-      },
-      "address": "Мите Богоевски 12/13",
-      "slug": "taksi-naskovikj-marjan",
-      "description": "Такси сервис со луксузно возило"
-    },
-    {
-      "name": "Даниго Веб",
-      "phone2": "",
-      "id": 48,
-      "phone": "078 222397",
-      "place": {
-        "slug": "ohrid",
-        "id": 2,
-        "name": "Охрид"
-      },
-      "address": "Мирче Ацев 33-a",
-      "slug": "danigo-veb",
-      "description": null
-    },
-    {
-      "name": "Делукс 1588",
-      "phone2": "046 264097",
-      "id": 49,
-      "phone": "046 266088",
-      "place": {
-        "slug": "ohrid",
-        "id": 2,
-        "name": "Охрид"
-      },
-      "address": "Клаудија втора б.б.",
-      "slug": "deluks-1588",
-      "description": null
-    },
-    {
-      "name": "Мерцедес 1592",
-      "phone2": "046 256956",
-      "id": 50,
-      "phone": "046 269192",
-      "place": {
-        "slug": "ohrid",
-        "id": 2,
-        "name": "Охрид"
-      },
-      "address": "Ѓорче Петров 7",
-      "slug": "mercedes-1592",
-      "description": null
-    },
-    {
-      "name": "Моби дик 15-95",
-      "phone2": "046 231800",
-      "id": 51,
-      "phone": "046 231800",
-      "place": {
-        "slug": "ohrid",
-        "id": 2,
-        "name": "Охрид"
-      },
-      "address": "7-ми Ноември 254",
-      "slug": "mobi-dik-15-95",
-      "description": null
-    },
-    {
-      "name": "Нова 13-000",
-      "phone2": "",
-      "id": 52,
-      "phone": "076 404040",
-      "place": {
-        "slug": "ohrid",
-        "id": 2,
-        "name": "Охрид"
-      },
-      "address": "15-ти Корпус б.б.",
-      "slug": "nova-13-000",
-      "description": null
-    },
-    {
-      "name": "Сузуки мт-1599",
-      "phone2": "046 266237",
-      "id": 53,
-      "phone": "046 266237",
-      "place": {
-        "slug": "ohrid",
-        "id": 2,
-        "name": "Охрид"
-      },
-      "address": "бул.Македонски Просветители лок.15",
-      "slug": "suzuki-mt-1599",
-      "description": null
-    },
-    {
-      "name": "Такси Тренд",
-      "phone2": "046 266237",
-      "id": 54,
-      "phone": "046 13444",
-      "place": {
-        "slug": "ohrid",
-        "id": 2,
-        "name": "Охрид"
-      },
-      "address": "бул.Македонски Просветители б.б. лок.15",
-      "slug": "taksi-trend",
-      "description": null
-    },
-    {
-      "name": "Ало-такси",
-      "phone2": "078 754777",
-      "id": 55,
-      "phone": "031 1591",
-      "place": {
-        "slug": "kumanovo",
-        "id": 3,
-        "name": "Куманово"
-      },
-      "address": "ул.4 бр.28",
-      "slug": "alo-taksi",
-      "description": null
-    },
-    {
-      "name": "Делукс 15-82",
-      "phone2": "031 431432",
-      "id": 56,
-      "phone": "031 431432",
-      "place": {
-        "slug": "kumanovo",
-        "id": 3,
-        "name": "Куманово"
-      },
-      "address": "ул.500 бр.55",
-      "slug": "deluks-15-82",
-      "description": null
-    },
-    {
-      "name": "Зоне-компани",
-      "phone2": "031 414288",
-      "id": 57,
-      "phone": "031 414288",
-      "place": {
-        "slug": "kumanovo",
-        "id": 3,
-        "name": "Куманово"
-      },
-      "address": "бул.3-та Македонска Ударна Бригада 144",
-      "slug": "zone-kompani",
-      "description": null
-    },
-    {
-      "name": "Принц 15-84",
-      "phone2": "",
-      "id": 58,
-      "phone": "031 445790",
-      "place": {
-        "slug": "kumanovo",
-        "id": 3,
-        "name": "Куманово"
-      },
-      "address": "ул.103 бр.1, Рајкова куќа",
-      "slug": "princ-15-84",
-      "description": null
-    },
-    {
-      "name": "Радевски-компанија",
-      "phone2": "031 414544",
-      "id": 59,
-      "phone": "031 415160",
-      "place": {
-        "slug": "kumanovo",
-        "id": 3,
-        "name": "Куманово"
-      },
-      "address": "Мирче Ацев 38",
-      "slug": "radevski-kompanija",
-      "description": null
-    },
-    {
-      "name": "Спид",
-      "phone2": "031 438190",
-      "id": 60,
-      "phone": "031 1596",
-      "place": {
-        "slug": "kumanovo",
-        "id": 3,
-        "name": "Куманово"
-      },
-      "address": "Косовски бригади 5",
-      "slug": "spid",
-      "description": null
-    },
-    {
-      "name": "Стара Бима",
-      "phone2": "031 1580",
-      "id": 61,
-      "phone": "031 414370",
-      "place": {
-        "slug": "kumanovo",
-        "id": 3,
-        "name": "Куманово"
-      },
-      "address": "Есперанто 14-а",
-      "slug": "stara-bima",
-      "description": null
-    },
-    {
-      "name": "Алфа 15-95",
-      "phone2": "",
-      "id": 62,
-      "phone": "047 1595",
-      "place": {
-        "slug": "bitola",
-        "id": 4,
-        "name": "Битола"
-      },
-      "address": "Кланица 7/10",
-      "slug": "alfa-15-95",
-      "description": null
-    },
-    {
-      "name": "Монгол 15-92",
-      "phone2": "072 252092",
-      "id": 63,
-      "phone": "047 1592",
-      "place": {
-        "slug": "bitola",
-        "id": 4,
-        "name": "Битола"
-      },
-      "address": "Краварски пат б.б.",
-      "slug": "mongol-15-92",
-      "description": null
-    },
-    {
-      "name": "Пелси 15-93",
-      "phone2": "075 311593",
-      "id": 64,
-      "phone": "047 236749",
-      "place": {
-        "slug": "bitola",
-        "id": 4,
-        "name": "Битола"
-      },
-      "address": "Кавала 12",
-      "slug": "pelsi-15-93",
-      "description": null
-    },
-    {
-      "name": "Тамара 15-91",
-      "phone2": "078 261591",
-      "id": 65,
-      "phone": "075 451591",
-      "place": {
-        "slug": "bitola",
-        "id": 4,
-        "name": "Битола"
-      },
-      "address": "Јорго Костовски 14",
-      "slug": "tamara-15-91",
-      "description": null
-    },
-    {
-      "name": "Теа 15-54",
-      "phone2": "072 261554",
-      "id": 66,
-      "phone": "047 1554",
-      "place": {
-        "slug": "bitola",
-        "id": 4,
-        "name": "Битола"
-      },
-      "address": "нас.Кланица 6/2",
-      "slug": "tea-15-54",
-      "description": null
-    },
-    {
-      "name": "Фаворит 15-91",
-      "phone2": "070 351456",
-      "id": 67,
-      "phone": "047 1591",
-      "place": {
-        "slug": "bitola",
-        "id": 4,
-        "name": "Битола"
-      },
-      "address": "Младинска 201",
-      "slug": "favorit-15-91",
-      "description": null
-    },
-    {
-      "name": "Цагер 15-86",
-      "phone2": "047 202621",
-      "id": 68,
-      "phone": "047 236735",
-      "place": {
-        "slug": "bitola",
-        "id": 4,
-        "name": "Битола"
-      },
-      "address": "Цар Самоил 75",
-      "slug": "cager-15-86",
-      "description": null
-    },
-    {
-      "name": "Арбекс-15-78",
-      "phone2": "070 256589",
-      "id": 69,
-      "phone": "044 332116",
-      "place": {
-        "slug": "tetovo",
-        "id": 5,
-        "name": "Тетово"
-      },
-      "address": "Дервиш Цара 28",
-      "slug": "arbeks-15-78",
-      "description": null
-    },
-    {
-      "name": "Бени",
-      "phone2": "044 330014",
-      "id": 70,
-      "phone": "044 1575",
-      "place": {
-        "slug": "tetovo",
-        "id": 5,
-        "name": "Тетово"
-      },
-      "address": "Киро Ристоски-Дрнц 33",
-      "slug": "beni",
-      "description": null
-    },
-    {
-      "name": "Бране-компани 15-77",
-      "phone2": "",
-      "id": 71,
-      "phone": "044 340626",
-      "place": {
-        "slug": "tetovo",
-        "id": 5,
-        "name": "Тетово"
-      },
-      "address": "ул.151 бр.3",
-      "slug": "brane-kompani-15-77",
-      "description": null
-    },
-    {
-      "name": "Ват Арбекс такси",
-      "phone2": "071 319446",
-      "id": 72,
-      "phone": "044 1578",
-      "place": {
-        "slug": "tetovo",
-        "id": 5,
-        "name": "Тетово"
-      },
-      "address": "Дервиш Цара 28",
-      "slug": "vat-arbeks-taksi",
-      "description": null
-    },
-    {
-      "name": "Гаги комерц",
-      "phone2": "044 344394",
-      "id": 73,
-      "phone": "044 1599",
-      "place": {
-        "slug": "tetovo",
-        "id": 5,
-        "name": "Тетово"
-      },
-      "address": "Ван Вардарска 14",
-      "slug": "gagi-komerc",
-      "description": null
-    },
-    {
-      "name": "Зоки комерц",
-      "phone2": "044 331767",
-      "id": 74,
-      "phone": "044 1591",
-      "place": {
-        "slug": "tetovo",
-        "id": 5,
-        "name": "Тетово"
-      },
-      "address": "В.С.Бато б.б",
-      "slug": "zoki-komerc",
-      "description": null
-    },
-    {
-      "name": "Краљ",
-      "phone2": "044 331289",
-      "id": 75,
-      "phone": "044 1570",
-      "place": {
-        "slug": "tetovo",
-        "id": 5,
-        "name": "Тетово"
-      },
-      "address": "Караорман 30",
-      "slug": "kralj",
-      "description": null
-    },
-    {
-      "name": "Латиф-комерц",
-      "phone2": "",
-      "id": 76,
-      "phone": "070 240086",
-      "place": {
-        "slug": "tetovo",
-        "id": 5,
-        "name": "Тетово"
-      },
-      "address": "с.Слатино",
-      "slug": "latif-komerc",
-      "description": null
-    },
-    {
-      "name": "Флорида",
-      "phone2": "044 341477",
-      "id": 77,
-      "phone": "070 256589",
-      "place": {
-        "slug": "tetovo",
-        "id": 5,
-        "name": "Тетово"
-      },
-      "address": "Дервиш Цара 28",
-      "slug": "florida",
-      "description": null
-    },
-    {
-      "name": "Хак 15-96",
-      "phone2": "044 330017",
-      "id": 78,
-      "phone": "044 1596",
-      "place": {
-        "slug": "tetovo",
-        "id": 5,
-        "name": "Тетово"
-      },
-      "address": "Илинденска 115",
-      "slug": "hak-15-96",
-      "description": null
-    },
-    {
-      "name": "Асови М&М",
-      "phone2": "",
-      "id": 79,
-      "phone": "033 277659",
-      "place": {
-        "slug": "kochani",
-        "id": 6,
-        "name": "Кочани"
-      },
-      "address": "Павлина Вељанова 26",
-      "slug": "asovi-m&m",
-      "description": null
-    },
-    {
-      "name": "Буба мара",
-      "phone2": "033 274985",
-      "id": 80,
-      "phone": "033 1588",
-      "place": {
-        "slug": "kochani",
-        "id": 6,
-        "name": "Кочани"
-      },
-      "address": "Ленинова б.б.",
-      "slug": "buba-mara",
-      "description": null
-    },
-    {
-      "name": "Изида 15-95",
-      "phone2": "078 341595",
-      "id": 81,
-      "phone": "033 274988",
-      "place": {
-        "slug": "kochani",
-        "id": 6,
-        "name": "Кочани"
-      },
-      "address": "с.Оризари",
-      "slug": "izida-15-95",
-      "description": null
-    },
-    {
-      "name": "Уникат 15-92",
-      "phone2": "033 274128",
-      "id": 82,
-      "phone": "033 271270",
-      "place": {
-        "slug": "kochani",
-        "id": 6,
-        "name": "Кочани"
-      },
-      "address": "Рајко Жинзифов 1",
-      "slug": "unikat-15-92",
-      "description": null
-    },
-    {
-      "name": "Астор",
-      "phone2": "070 637535",
-      "id": 83,
-      "phone": "043 366252",
-      "place": {
-        "slug": "demir-kapija",
-        "id": 7,
-        "name": "Демир Капија"
-      },
-      "address": "Партизанска 9",
-      "slug": "astor",
-      "description": null
-    },
-    {
-      "name": "Ас 15-35",
-      "phone2": "078 361535",
-      "id": 84,
-      "phone": "070 361535",
-      "place": {
-        "slug": "gevgelija",
-        "id": 8,
-        "name": "Гевгелија"
-      },
-      "address": "11-ти Октомври б.б.",
-      "slug": "as-15-35",
-      "description": null
-    },
-    {
-      "name": "М.Ј. Компани",
-      "phone2": "",
-      "id": 85,
-      "phone": "034 215888",
-      "place": {
-        "slug": "gevgelija",
-        "id": 8,
-        "name": "Гевгелија"
-      },
-      "address": "11-ти Октомври 6-a",
-      "slug": "m.j.-kompani",
-      "description": null
-    },
-    {
-      "name": "Хит 15-48",
-      "phone2": "",
-      "id": 86,
-      "phone": "034 611555",
-      "place": {
-        "slug": "gevgelija",
-        "id": 8,
-        "name": "Гевгелија"
-      },
-      "address": "Деко Ковачев 17",
-      "slug": "hit-15-48",
-      "description": null
-    },
-    {
-      "name": "Ат-Ива 15-81",
-      "phone2": "070 308998",
-      "id": 87,
-      "phone": "048 428033",
-      "place": {
-        "slug": "prilep",
-        "id": 9,
-        "name": "Прилеп"
-      },
-      "address": "Александар Македонски 103",
-      "slug": "at-iva-15-81",
-      "description": null
-    },
-    {
-      "name": "Елен",
-      "phone2": "048 437701",
-      "id": 88,
-      "phone": "048 1571",
-      "place": {
-        "slug": "prilep",
-        "id": 9,
-        "name": "Прилеп"
-      },
-      "address": "Јоска Јорданоски 76/6",
-      "slug": "elen",
-      "description": null
-    },
-    {
-      "name": "Милениум 15-73",
-      "phone2": "048 416219",
-      "id": 89,
-      "phone": "048 416218",
-      "place": {
-        "slug": "prilep",
-        "id": 9,
-        "name": "Прилеп"
-      },
-      "address": "Александар Македонски 124",
-      "slug": "milenium-15-73",
-      "description": null
-    },
-    {
-      "name": "Палас 1575",
-      "phone2": "048 422989",
-      "id": 90,
-      "phone": "048 1575",
-      "place": {
-        "slug": "prilep",
-        "id": 9,
-        "name": "Прилеп"
-      },
-      "address": "Пенка Котеска 89",
-      "slug": "palas-1575",
-      "description": null
-    },
-    {
-      "name": "Пет 15-55",
-      "phone2": "048 424430",
-      "id": 91,
-      "phone": "048 420460",
-      "place": {
-        "slug": "prilep",
-        "id": 9,
-        "name": "Прилеп"
-      },
-      "address": "Тризла 48",
-      "slug": "pet-15-55",
-      "description": null
-    },
-    {
-      "name": "Роман",
-      "phone2": "070 259499",
-      "id": 92,
-      "phone": "048 430001",
-      "place": {
-        "slug": "prilep",
-        "id": 9,
-        "name": "Прилеп"
-      },
-      "address": "Илија Василевски 12",
-      "slug": "roman",
-      "description": null
-    },
-    {
-      "name": "Роман 15-81",
-      "phone2": "048 415679",
-      "id": 93,
-      "phone": "070 349191",
-      "place": {
-        "slug": "prilep",
-        "id": 9,
-        "name": "Прилеп"
-      },
-      "address": "Нил Армстронг 12",
-      "slug": "roman-15-81",
-      "description": null
-    },
-    {
-      "name": "Бако 15-97",
-      "phone2": "072 311597",
-      "id": 94,
-      "phone": "032 381597",
-      "place": {
-        "slug": "shtip",
-        "id": 10,
-        "name": "Штип"
-      },
-      "address": "Сутјеска б.б.",
-      "slug": "bako-15-97",
-      "description": null
-    },
-    {
-      "name": "Биг смајли",
-      "phone2": "",
-      "id": 95,
-      "phone": "032 1592",
-      "place": {
-        "slug": "shtip",
-        "id": 10,
-        "name": "Штип"
-      },
-      "address": "Борис Крајгер б.б.",
-      "slug": "big-smajli",
-      "description": null
-    },
-    {
-      "name": "Де лукс 15-60",
-      "phone2": "032 392560",
-      "id": 96,
-      "phone": "032 1560",
-      "place": {
-        "slug": "shtip",
-        "id": 10,
-        "name": "Штип"
-      },
-      "address": "Нобелова 3",
-      "slug": "de-luks-15-60",
-      "description": null
-    },
-    {
-      "name": "Ла коста 15-77",
-      "phone2": "032 609277",
-      "id": 97,
-      "phone": "032 1577",
-      "place": {
-        "slug": "shtip",
-        "id": 10,
-        "name": "Штип"
-      },
-      "address": "Загребска 9",
-      "slug": "la-kosta-15-77",
-      "description": null
-    },
-    {
-      "name": "Ортакси 15-88",
-      "phone2": "",
-      "id": 98,
-      "phone": "032 1588",
-      "place": {
-        "slug": "shtip",
-        "id": 10,
-        "name": "Штип"
-      },
-      "address": "Васил Доганджиски 57",
-      "slug": "ortaksi-15-88",
-      "description": null
-    },
-    {
-      "name": "Бамби дримс 2",
-      "phone2": "070 218591",
-      "id": 99,
-      "phone": "034 1591",
-      "place": {
-        "slug": "strumica",
-        "id": 11,
-        "name": "Струмица"
-      },
-      "address": "Младинска 201",
-      "slug": "bambi-drims-2",
-      "description": null
-    },
-    {
-      "name": "Блек-шмек 1566",
-      "phone2": "070 310660",
-      "id": 100,
-      "phone": "034 347175",
-      "place": {
-        "slug": "strumica",
-        "id": 11,
-        "name": "Струмица"
-      },
-      "address": "Братство Единство 36",
-      "slug": "blek-shmek-1566",
-      "description": null
-    },
-    {
-      "name": "Екстра-1598",
-      "phone2": "078 291598",
-      "id": 101,
-      "phone": "034 1598",
-      "place": {
-        "slug": "strumica",
-        "id": 11,
-        "name": "Струмица"
-      },
-      "address": "Маршал Тито 172",
-      "slug": "ekstra-1598",
-      "description": null
-    },
-    {
-      "name": "Ново такси",
-      "phone2": "",
-      "id": 102,
-      "phone": "032 1599",
-      "place": {
-        "slug": "shtip",
-        "id": 10,
-        "name": "Штип"
-      },
-      "address": "бул.ЈНА 26-а лок.4",
-      "slug": "novo-taksi",
-      "description": "8-ми Ноември Булевар ЈНА до градинка"
-    },
-    {
-      "name": "Нивито 15-82",
-      "phone2": "",
-      "id": 103,
-      "phone": "032 1582",
-      "place": {
-        "slug": "shtip",
-        "id": 10,
-        "name": "Штип"
-      },
-      "address": "бул.ЈНА б.б.",
-      "slug": "nivito-15-82",
-      "description": "До полицијата"
-    },
-    {
-      "name": "Див Сеат",
-      "phone2": "",
-      "id": 104,
-      "phone": "032 1565",
-      "place": {
-        "slug": "shtip",
-        "id": 10,
-        "name": "Штип"
-      },
-      "address": "Сајбие Демир б.б.",
-      "slug": "div-seat",
-      "description": "Сењак"
-    },
-    {
-      "name": "Такси-Нова 15-78",
-      "phone2": "",
-      "id": 105,
-      "phone": "048 1578",
-      "place": {
-        "slug": "prilep",
-        "id": 9,
-        "name": "Прилеп"
-      },
-      "address": "Егејска 58",
-      "slug": "taksi-nova-15-78",
-      "description": "во близина на биро за вработување"
-    },
-    {
-      "name": "Такси Лион 15-77",
-      "phone2": "",
-      "id": 106,
-      "phone": "048 412528",
-      "place": {
-        "slug": "prilep",
-        "id": 9,
-        "name": "Прилеп"
-      },
-      "address": "Ладо Лапецот 19",
-      "slug": "taksi-lion-15-77",
-      "description": null
-    },
-    {
-      "name": "Палас 15-75",
-      "phone2": "",
-      "id": 107,
-      "phone": "048 422989",
-      "place": {
-        "slug": "prilep",
-        "id": 9,
-        "name": "Прилеп"
-      },
-      "address": "Пенка Котеска 89",
-      "slug": "palas-15-75",
-      "description": "на рид"
-    },
-    {
-      "name": "Нова 15-78",
-      "phone2": "",
-      "id": 108,
-      "phone": "048 428474",
-      "place": {
-        "slug": "prilep",
-        "id": 9,
-        "name": "Прилеп"
-      },
-      "address": "Егејска 58",
-      "slug": "nova-15-78",
-      "description": null
-    },
-    {
-      "name": "Мише Шпед",
-      "phone2": "",
-      "id": 109,
-      "phone": "076 296030",
-      "place": {
-        "slug": "prilep",
-        "id": 9,
-        "name": "Прилеп"
-      },
-      "address": "Мирче Ацев 99",
-      "slug": "mishe-shped",
-      "description": null
-    },
-    {
-      "name": "Лион 15-77",
-      "phone2": "",
-      "id": 110,
-      "phone": "048 412528",
-      "place": {
-        "slug": "prilep",
-        "id": 9,
-        "name": "Прилеп"
-      },
-      "address": "Ладо Лапецот 19",
-      "slug": "lion-15-77",
-      "description": null
-    },
-    {
-      "name": "Евро Такси Компани 15-93",
-      "phone2": "",
-      "id": 111,
-      "phone": "048 401222",
-      "place": {
-        "slug": "prilep",
-        "id": 9,
-        "name": "Прилеп"
-      },
-      "address": "Самоилова 13-4/17",
-      "slug": "evro-taksi-kompani-15-93",
-      "description": "зграда Табана"
-    },
-    {
-      "name": "Де-ни Такси",
-      "phone2": "",
-      "id": 112,
-      "phone": "048 419195",
-      "place": {
-        "slug": "prilep",
-        "id": 9,
-        "name": "Прилеп"
-      },
-      "address": "Александар Македонски 160",
-      "slug": "de-ni-taksi",
-      "description": null
-    },
-    {
-      "name": "Ндерими",
-      "phone2": "",
-      "id": 113,
-      "phone": "031 414121",
-      "place": {
-        "slug": "kumanovo",
-        "id": 3,
-        "name": "Куманово"
-      },
-      "address": "Поток Серава 71",
-      "slug": "nderimi",
-      "description": null
-    },
-    {
-      "name": "Гонзалес-15-77",
-      "phone2": "",
-      "id": 114,
-      "phone": "070 207576",
-      "place": {
-        "slug": "bitola",
-        "id": 4,
-        "name": "Битола"
-      },
-      "address": "Јанко Палигора б.б.",
-      "slug": "gonzales-15-77",
-      "description": null
-    },
-    {
-      "name": "Коки Такси",
-      "phone2": "",
-      "id": 115,
-      "phone": "044 1590",
-      "place": {
-        "slug": "tetovo",
-        "id": 5,
-        "name": "Тетово"
-      },
-      "address": "Маршал Тито 134",
-      "slug": "koki-taksi",
-      "description": "Стара библиотека"
-    },
-    {
-      "name": "Есперо 15-51",
-      "phone2": "",
-      "id": 116,
-      "phone": "034 355185",
-      "place": {
-        "slug": "strumica",
-        "id": 11,
-        "name": "Струмица"
-      },
-      "address": "Маршал Тито б.б., Ново Село",
-      "slug": "espero-15-51",
-      "description": null
-    },
-    {
-      "name": "Љашо",
-      "phone2": "034 329008",
-      "id": 117,
-      "phone": "034 353015",
-      "place": {
-        "slug": "strumica",
-        "id": 11,
-        "name": "Струмица"
-      },
-      "address": "с.Ангелци б.б.",
-      "slug": "ljasho",
-      "description": null
-    },
-    {
-      "name": "Радио такси 1588",
-      "phone2": "070 253250",
-      "id": 118,
-      "phone": "034 1588",
-      "place": {
-        "slug": "strumica",
-        "id": 11,
-        "name": "Струмица"
-      },
-      "address": "11-ти Октомври 17/а",
-      "slug": "radio-taksi-1588",
-      "description": null
-    },
-    {
-      "name": "Радио Такси 15-60",
-      "phone2": "070 358444",
-      "id": 119,
-      "phone": "034 1560",
-      "place": {
-        "slug": "strumica",
-        "id": 11,
-        "name": "Струмица"
-      },
-      "address": "Маршал Тито 161",
-      "slug": "radio-taksi-15-60",
-      "description": null
-    },
-    {
-      "name": "Бамби дрим 15-91",
-      "phone2": "078 769352",
-      "id": 120,
-      "phone": "043 222291",
-      "place": {
-        "slug": "veles",
-        "id": 12,
-        "name": "Велес"
-      },
-      "address": "Благој Ѓорев б.б.",
-      "slug": "bambi-drim-15-91",
-      "description": null
-    },
-    {
-      "name": "Денс",
-      "phone2": "043 221815",
-      "id": 121,
-      "phone": "043 222188",
-      "place": {
-        "slug": "veles",
-        "id": 12,
-        "name": "Велес"
-      },
-      "address": "Благој Ѓорев 13",
-      "slug": "dens",
-      "description": null
-    },
-    {
-      "name": "Ирена",
-      "phone2": "075 222190",
-      "id": 122,
-      "phone": "043 1590",
-      "place": {
-        "slug": "veles",
-        "id": 12,
-        "name": "Велес"
-      },
-      "address": "Димко Најдов 60",
-      "slug": "irena",
-      "description": null
-    },
-    {
-      "name": "Мартин Травел",
-      "phone2": "043 212116",
-      "id": 123,
-      "phone": "043 222255",
-      "place": {
-        "slug": "veles",
-        "id": 12,
-        "name": "Велес"
-      },
-      "address": "Борис Трајковски 18 (Ленинова)",
-      "slug": "martin-travel",
-      "description": null
-    },
-    {
-      "name": "Пан такси 15-92",
-      "phone2": "043 212116",
-      "id": 124,
-      "phone": "043 222192",
-      "place": {
-        "slug": "veles",
-        "id": 12,
-        "name": "Велес"
-      },
-      "address": "Борис Трајковски 18 (Ленинова)",
-      "slug": "pan-taksi-15-92",
-      "description": null
-    },
-    {
-      "name": "Такси Здружение 1593",
-      "phone2": "043 211193",
-      "id": 125,
-      "phone": "043 222171",
-      "place": {
-        "slug": "veles",
-        "id": 12,
-        "name": "Велес"
-      },
-      "address": "Тодор Јанев 30-а",
-      "slug": "taksi-zdruzhenie-1593",
-      "description": null
-    },
-    {
-      "name": "Такси Нова 1595",
-      "phone2": "078 251595",
-      "id": 126,
-      "phone": "043 222170",
-      "place": {
-        "slug": "veles",
-        "id": 12,
-        "name": "Велес"
-      },
-      "address": "Благој Ѓорев 104-а",
-      "slug": "taksi-nova-1595",
-      "description": null
-    },
-    {
-      "name": "Бејран-1516",
-      "phone2": "",
-      "id": 127,
-      "phone": "047 451616",
-      "place": {
-        "slug": "resen",
-        "id": 13,
-        "name": "Ресен"
-      },
-      "address": "Мите Богоевски б.б.",
-      "slug": "bejran-1516",
-      "description": null
-    },
-    {
-      "name": "Конзул 15-14",
-      "phone2": "",
-      "id": 128,
-      "phone": "047 489501",
-      "place": {
-        "slug": "resen",
-        "id": 13,
-        "name": "Ресен"
-      },
-      "address": "с.Царев Двор",
-      "slug": "konzul-15-14",
-      "description": null
-    },
-    {
-      "name": "Бела",
-      "phone2": "045 221033",
-      "id": 129,
-      "phone": "045 1593",
-      "place": {
-        "slug": "kichevo",
-        "id": 14,
-        "name": "Кичево"
-      },
-      "address": "Тане Цалески 11",
-      "slug": "bela",
-      "description": null
-    },
-    {
-      "name": "В.Ангел",
-      "phone2": "",
-      "id": 130,
-      "phone": "045 223119",
-      "place": {
-        "slug": "kichevo",
-        "id": 14,
-        "name": "Кичево"
-      },
-      "address": "Мито Јовески 22",
-      "slug": "v.angel",
-      "description": null
-    },
-    {
-      "name": "Пане",
-      "phone2": "",
-      "id": 131,
-      "phone": "070 533350",
-      "place": {
-        "slug": "kichevo",
-        "id": 14,
-        "name": "Кичево"
-      },
-      "address": "Солунска б.б.",
-      "slug": "pane",
-      "description": null
-    },
-    {
-      "name": "Срна",
-      "phone2": "",
-      "id": 132,
-      "phone": "045 221484",
-      "place": {
-        "slug": "kichevo",
-        "id": 14,
-        "name": "Кичево"
-      },
-      "address": "4-ти Јули 184/4",
-      "slug": "srna",
-      "description": null
-    },
-    {
-      "name": "Блато",
-      "phone2": "033 471666",
-      "id": 133,
-      "phone": "033 470025",
-      "place": {
-        "slug": "berovo",
-        "id": 15,
-        "name": "Берово"
-      },
-      "address": "Брдославица б.б., нас. Блато",
-      "slug": "blato",
-      "description": null
-    },
-    {
-      "name": "Централ 15-30",
-      "phone2": "033 470373",
-      "id": 134,
-      "phone": "033 1530",
-      "place": {
-        "slug": "berovo",
-        "id": 15,
-        "name": "Берово"
-      },
-      "address": "Илинденска 2",
-      "slug": "central-15-30",
-      "description": null
-    },
-    {
-      "name": "Боби",
-      "phone2": "077 577429",
-      "id": 135,
-      "phone": "034 223333",
-      "place": {
-        "slug": "bogdanci",
-        "id": 16,
-        "name": "Богданци"
-      },
-      "address": "Мирчо Џочков 3",
-      "slug": "bobi",
-      "description": null
-    },
-    {
-      "name": "Гоки",
-      "phone2": "070 925922",
-      "id": 136,
-      "phone": "034 223355",
-      "place": {
-        "slug": "bogdanci",
-        "id": 16,
-        "name": "Богданци"
-      },
-      "address": "Маршал Тито б.б.",
-      "slug": "goki",
-      "description": null
-    },
-    {
-      "name": "Мил зоран",
-      "phone2": "078 747244",
-      "id": 137,
-      "phone": "034 222522",
-      "place": {
-        "slug": "bogdanci",
-        "id": 16,
-        "name": "Богданци"
-      },
-      "address": "Егејска 37",
-      "slug": "mil-zoran",
-      "description": null
-    },
-    {
-      "name": "Бо-ком 15-52",
-      "phone2": "",
-      "id": 138,
-      "phone": "032 481996",
-      "place": {
-        "slug": "probishtip",
-        "id": 17,
-        "name": "Пробиштип"
-      },
-      "address": "28-ми Август 17",
-      "slug": "bo-kom-15-52",
-      "description": null
-    },
-    {
-      "name": "Д`гна",
-      "phone2": "032 480880",
-      "id": 139,
-      "phone": "032 480880",
-      "place": {
-        "slug": "probishtip",
-        "id": 17,
-        "name": "Пробиштип"
-      },
-      "address": "9-ти Мај 4",
-      "slug": "d`gna",
-      "description": null
-    },
-    {
-      "name": "Буба Мара 15-30",
-      "phone2": "078 451530",
-      "id": 140,
-      "phone": "078 737576",
-      "place": {
-        "slug": "sveti-nikole",
-        "id": 19,
-        "name": "Свети Николе"
-      },
-      "address": "Крсте Мисирков 26",
-      "slug": "buba-mara-15-30",
-      "description": null
-    },
-    {
-      "name": "Буби",
-      "phone2": "",
-      "id": 141,
-      "phone": "033 441496",
-      "place": {
-        "slug": "pehchevo",
-        "id": 20,
-        "name": "Пехчево"
-      },
-      "address": "Борис Кидрич 42",
-      "slug": "bubi",
-      "description": null
-    },
-    {
-      "name": "Веднаш",
-      "phone2": "043 416001",
-      "id": 142,
-      "phone": "043 419999",
-      "place": {
-        "slug": "kavadarci",
-        "id": 22,
-        "name": "Кавадарци"
-      },
-      "address": "1-ви Мај 16",
-      "slug": "vednash",
-      "description": null
-    },
-    {
-      "name": "Викни",
-      "phone2": "078 445554",
-      "id": 143,
-      "phone": "071 234222",
-      "place": {
-        "slug": "kavadarci",
-        "id": 22,
-        "name": "Кавадарци"
-      },
-      "address": "27-ми Март 69",
-      "slug": "vikni",
-      "description": null
-    },
-    {
-      "name": "Виножито Бис",
-      "phone2": "070 219191",
-      "id": 144,
-      "phone": "043 410564",
-      "place": {
-        "slug": "kavadarci",
-        "id": 22,
-        "name": "Кавадарци"
-      },
-      "address": "Бел Камен 16",
-      "slug": "vinozhito-bis",
-      "description": null
-    },
-    {
-      "name": "Виножито ВБ",
-      "phone2": "075 320100",
-      "id": 145,
-      "phone": "043 415100",
-      "place": {
-        "slug": "kavadarci",
-        "id": 22,
-        "name": "Кавадарци"
-      },
-      "address": "Мито Хаџивасилев 91",
-      "slug": "vinozhito-vb",
-      "description": null
-    },
-    {
-      "name": "Екстра",
-      "phone2": "043 400301",
-      "id": 146,
-      "phone": "043 400300",
-      "place": {
-        "slug": "kavadarci",
-        "id": 22,
-        "name": "Кавадарци"
-      },
-      "address": "Сремски Фронт 2",
-      "slug": "ekstra",
-      "description": null
-    },
-    {
-      "name": "Екстрабус",
-      "phone2": "043 420020",
-      "id": 147,
-      "phone": "043 420020",
-      "place": {
-        "slug": "kavadarci",
-        "id": 22,
-        "name": "Кавадарци"
-      },
-      "address": "Илинденска 115",
-      "slug": "ekstrabus",
-      "description": null
-    },
-    {
-      "name": "Кам смарк",
-      "phone2": "070 219555",
-      "id": 148,
-      "phone": "043 1568",
-      "place": {
-        "slug": "kavadarci",
-        "id": 22,
-        "name": "Кавадарци"
-      },
-      "address": "бул.Македонија 3-ѓ",
-      "slug": "kam-smark",
-      "description": null
-    },
-    {
-      "name": "Комета",
-      "phone2": "",
-      "id": 149,
-      "phone": "043 418555",
-      "place": {
-        "slug": "kavadarci",
-        "id": 22,
-        "name": "Кавадарци"
-      },
-      "address": "Моша Пијаде 6-3/4",
-      "slug": "kometa",
-      "description": null
-    },
-    {
-      "name": "Лаки 1577",
-      "phone2": "",
-      "id": 150,
-      "phone": "043 412456",
-      "place": {
-        "slug": "kavadarci",
-        "id": 22,
-        "name": "Кавадарци"
-      },
-      "address": "Бошавска 10",
-      "slug": "laki-1577",
-      "description": null
-    },
-    {
-      "name": "Петкови Експрес",
-      "phone2": "071 354111",
-      "id": 151,
-      "phone": "075 431059",
-      "place": {
-        "slug": "kavadarci",
-        "id": 22,
-        "name": "Кавадарци"
-      },
-      "address": "Диме Чекоров 15",
-      "slug": "petkovi-ekspres",
-      "description": null
-    },
-    {
-      "name": "Такси Буги",
-      "phone2": "071 299955",
-      "id": 152,
-      "phone": "043 13555",
-      "place": {
-        "slug": "kavadarci",
-        "id": 22,
-        "name": "Кавадарци"
-      },
-      "address": "Мито Хаџивасилев б.б.",
-      "slug": "taksi-bugi",
-      "description": null
-    },
-    {
-      "name": "Голди Експрес",
-      "phone2": "075 215215",
-      "id": 153,
-      "phone": "042 1591",
-      "place": {
-        "slug": "gostivar",
-        "id": 23,
-        "name": "Гостивар"
-      },
-      "address": "Никола Парапунов 39",
-      "slug": "goldi-ekspres",
-      "description": null
-    },
-    {
-      "name": "Далас",
-      "phone2": "042 222110",
-      "id": 154,
-      "phone": "042 1581",
-      "place": {
-        "slug": "gostivar",
-        "id": 23,
-        "name": "Гостивар"
-      },
-      "address": "ЈНА 231",
-      "slug": "dalas",
-      "description": null
-    },
-    {
-      "name": "Пинк",
-      "phone2": "078 286019",
-      "id": 155,
-      "phone": "042 1508",
-      "place": {
-        "slug": "gostivar",
-        "id": 23,
-        "name": "Гостивар"
-      },
-      "address": "Никола Парапунов 6",
-      "slug": "pink",
-      "description": null
-    },
-    {
-      "name": "Пони експрес",
-      "phone2": "042 212473",
-      "id": 156,
-      "phone": "042 1582",
-      "place": {
-        "slug": "gostivar",
-        "id": 23,
-        "name": "Гостивар"
-      },
-      "address": "18-ти Ноември 8",
-      "slug": "poni-ekspres",
-      "description": null
-    },
-    {
-      "name": "Рио",
-      "phone2": "042 222847",
-      "id": 157,
-      "phone": "042 1595",
-      "place": {
-        "slug": "gostivar",
-        "id": 23,
-        "name": "Гостивар"
-      },
-      "address": "Светозар Пеповски 8",
-      "slug": "rio",
-      "description": null
-    },
-    {
-      "name": "Такси Гранде",
-      "phone2": "078 351585",
-      "id": 158,
-      "phone": "042 1585",
-      "place": {
-        "slug": "gostivar",
-        "id": 23,
-        "name": "Гостивар"
-      },
-      "address": "Гече Гаврилоски 18",
-      "slug": "taksi-grande",
-      "description": null
-    },
-    {
-      "name": "Такси Еуро",
-      "phone2": "071 638528",
-      "id": 159,
-      "phone": "042 1589",
-      "place": {
-        "slug": "gostivar",
-        "id": 23,
-        "name": "Гостивар"
-      },
-      "address": "Младен Симоновски 26",
-      "slug": "taksi-euro",
-      "description": null
-    },
-    {
-      "name": "Такси 77",
-      "phone2": "075 488266",
-      "id": 160,
-      "phone": "042 1577",
-      "place": {
-        "slug": "gostivar",
-        "id": 23,
-        "name": "Гостивар"
-      },
-      "address": "Тоде Богданоски 1",
-      "slug": "taksi-77",
-      "description": null
-    },
-    {
-      "name": "Дане",
-      "phone2": "",
-      "id": 161,
-      "phone": "034 381464",
-      "place": {
-        "slug": "valandovo",
-        "id": 24,
-        "name": "Валандово"
-      },
-      "address": "Маршал Тито 15",
-      "slug": "dane",
-      "description": null
-    },
-    {
-      "name": "Делта-1545",
-      "phone2": "",
-      "id": 162,
-      "phone": "033 360195",
-      "place": {
-        "slug": "vinica",
-        "id": 25,
-        "name": "Виница"
-      },
-      "address": "Григор Прличев 26",
-      "slug": "delta-1545",
-      "description": null
-    },
-    {
-      "name": "Пјер",
-      "phone2": "",
-      "id": 163,
-      "phone": "070 781313",
-      "place": {
-        "slug": "vinica",
-        "id": 25,
-        "name": "Виница"
-      },
-      "address": "Климент Охридски 8",
-      "slug": "pjer",
-      "description": null
-    },
-    {
-      "name": "Марјан 15-65",
-      "phone2": "070 859333",
-      "id": 164,
-      "phone": "046 780185",
-      "place": {
-        "slug": "struga",
-        "id": 27,
-        "name": "Струга"
-      },
-      "address": "ЈНА 2/1",
-      "slug": "marjan-15-65",
-      "description": null
-    },
-    {
-      "name": "Оскар",
-      "phone2": "070 262070",
-      "id": 165,
-      "phone": "046 1578",
-      "place": {
-        "slug": "struga",
-        "id": 27,
-        "name": "Струга"
-      },
-      "address": "Маршал Тито 117",
-      "slug": "oskar",
-      "description": null
-    },
-    {
-      "name": "Валентин Андонов",
-      "phone2": "359 7851796",
-      "id": 166,
-      "phone": "359 887306241",
-      "place": {
-        "slug": "kjustendil-(bugarija)",
-        "id": 21,
-        "name": "Ќустендил (Бугарија)"
-      },
-      "address": "П.Славејков 10",
-      "slug": "valentin-andonov",
-      "description": "Такси за Софија"
-    },
-    {
-      "name": "Камен Джонев",
-      "phone2": "",
-      "id": 167,
-      "phone": "359 888700381",
-      "place": {
-        "slug": "ohrid",
-        "id": 2,
-        "name": "Охрид"
-      },
-      "address": "Ќустендил",
-      "slug": "kamen-dzhonev",
-      "description": "Такси за Софија"
-    },
-    {
-      "name": "Перка 15-94",
-      "phone2": "",
-      "id": 168,
-      "phone": "043 222194",
-      "place": {
-        "slug": "veles",
-        "id": 12,
-        "name": "Велес"
-      },
-      "address": "Ордан Џинот 40",
-      "slug": "perka-15-94",
-      "description": null
-    },
-    {
-      "name": "Бинго",
-      "phone2": "",
-      "id": 169,
-      "phone": "043 222183",
-      "place": {
-        "slug": "veles",
-        "id": 12,
-        "name": "Велес"
-      },
-      "address": "Партение Зографски 4/33 (Првомајска)",
-      "slug": "bingo",
-      "description": "Над Трговскиот"
-    },
-    {
-      "name": "Такси Нима",
-      "phone2": "",
-      "id": 170,
-      "phone": "034 352120",
-      "place": {
-        "slug": "strumica",
-        "id": 11,
-        "name": "Струмица"
-      },
-      "address": "с.Мокриево",
-      "slug": "taksi-nima",
-      "description": "центар"
-    },
-    {
-      "name": "Радио Такси 15-90",
-      "phone2": "",
-      "id": 171,
-      "phone": "034 1590",
-      "place": {
-        "slug": "strumica",
-        "id": 11,
-        "name": "Струмица"
-      },
-      "address": "Братство Единство 36",
-      "slug": "radio-taksi-15-90",
-      "description": "спроти кино Балкан"
-    },
-    {
-      "name": "Радио такси 15-52",
-      "phone2": "",
-      "id": 172,
-      "phone": "034 355112",
-      "place": {
-        "slug": "strumica",
-        "id": 11,
-        "name": "Струмица"
-      },
-      "address": "Маршал Тито 38",
-      "slug": "radio-taksi-15-52",
-      "description": "центар"
-    },
-    {
-      "name": "Радио такси Стил 15-85",
-      "phone2": "",
-      "id": 173,
-      "phone": "034 346023",
-      "place": {
-        "slug": "strumica",
-        "id": 11,
-        "name": "Струмица"
-      },
-      "address": "Братство Единство 51",
-      "slug": "radio-taksi-stil-15-85",
-      "description": "во близина на нова болница"
-    },
-    {
-      "name": "Коби 15-93",
-      "phone2": "",
-      "id": 174,
-      "phone": "034 349193",
-      "place": {
-        "slug": "strumica",
-        "id": 11,
-        "name": "Струмица"
-      },
-      "address": "Панче Пешев 27",
-      "slug": "kobi-15-93",
-      "description": "до детска болница"
-    },
-    {
-      "name": "Зорген",
-      "phone2": "",
-      "id": 175,
-      "phone": "034 1587",
-      "place": {
-        "slug": "strumica",
-        "id": 11,
-        "name": "Струмица"
-      },
-      "address": "Браќа Миладинови 31",
-      "slug": "zorgen",
-      "description": "трговскиот до новата болница"
-    },
-    {
-      "name": "Роки 15-83",
-      "phone2": "",
-      "id": 176,
-      "phone": "032 1583",
-      "place": {
-        "slug": "shtip",
-        "id": 10,
-        "name": "Штип"
-      },
-      "address": "Сутјеска б.б",
-      "slug": "roki-15-83",
-      "description": "спроти Туш маркет"
-    },
-    {
-      "name": "Такси Маријан",
-      "phone2": "046 1565",
-      "id": 177,
-      "phone": "070 859333",
-      "place": {
-        "slug": "struga",
-        "id": 27,
-        "name": "Струга"
-      },
-      "address": "ЈНА б.б.",
-      "slug": "taksi-marijan",
-      "description": null
-    },
-    {
-      "name": "Такси Мики",
-      "phone2": "078 217207",
-      "id": 178,
-      "phone": "042 1555",
-      "place": {
-        "slug": "gostivar",
-        "id": 23,
-        "name": "Гостивар"
-      },
-      "address": "Боге Вељаноски 78",
-      "slug": "taksi-miki",
-      "description": "Najdobroto taksi vo gradot"
-    },
-    {
-      "name": "Сити 15-60",
-      "phone2": "076 221560",
-      "id": 179,
-      "phone": "044 331191",
-      "place": {
-        "slug": "tetovo",
-        "id": 5,
-        "name": "Тетово"
-      },
-      "address": "Иво Лола Рибар 219",
-      "slug": "siti 15-60",
-      "description": "Najdobroto taksi vo gradot"
-    },
-    {
-      "name": "Грич",
-      "phone2": null,
-      "id": 180,
-      "phone": "076 815121",
-      "place": {
-        "slug": "bitola",
-        "id": 4,
-        "name": "Битола"
-      },
-      "address": "Филип Втори Македонски 96/14 (Иван Милутиновиќ)",
-      "slug": "grich",
-      "description": null
-    },
-    {
-      "name": "Чоко 75",
-      "phone2": null,
-      "id": 181,
-      "phone": "076 815121",
-      "place": {
-        "slug": "bitola",
-        "id": 4,
-        "name": "Битола"
-      },
-      "address": "Филип Втори Македонски 96/14 (Иван Милутиновиќ)",
-      "slug": "choko-75",
-      "description": null
-    },
-    {
-      "name": "Џокер 15-97",
-      "phone2": null,
-      "id": 182,
-      "phone": "031 1597",
-      "place": {
-        "slug": "kumanovo",
-        "id": 3,
-        "name": "Куманово"
-      },
-      "address": "Тане Георгиевски 23",
-      "slug": "djoker-15-97",
-      "description": null
-    },
-    {
-      "name": "Џокер",
-      "phone2": "078 331597",
-      "id": 183,
-      "phone": "033 1597",
-      "place": {
-        "slug": "kochani",
-        "id": 6,
-        "name": "Кочани"
-      },
-      "address": "Вера Которка 73",
-      "slug": "djoker",
-      "description": null
-    },
-    {
-      "name": "Шпреса",
-      "phone2": "070 310678",
-      "id": 184,
-      "phone": "045 223200",
-      "place": {
-        "slug": "kichevo",
-        "id": 14,
-        "name": "Кичево"
-      },
-      "address": "Веле Змејкоски 52",
-      "slug": "shpresa",
-      "description": null
-    },
-    {
-      "name": "Сити Такси АС 15-35",
-      "phone2": null,
-      "id": 185,
-      "phone": "034 211050",
-      "place": {
-        "slug": "gevgelija",
-        "id": 8,
-        "name": "Гевгелија"
-      },
-      "address": "11-ти Октомври б.б.",
-      "slug": "siti-taksi-as-15-35",
-      "description": null
-    },
-    {
-      "name": "Мастер компани 15-31",
-      "phone2": "075 331531",
-      "id": 186,
-      "phone": "034 211245",
-      "place": {
-        "slug": "gevgelija",
-        "id": 8,
-        "name": "Гевгелија"
-      },
-      "address": "Ристо Чавдаров б.б.",
-      "slug": "master-kompani-15-31",
-      "description": null
-    },
-    {
-      "name": "Ваку",
-      "phone2": null,
-      "id": 187,
-      "phone": "070 232748",
-      "place": {
-        "slug": "struga",
-        "id": 27,
-        "name": "Струга"
-      },
-      "address": "с.Велешта",
-      "slug": "vaku",
-      "description": null
-    },
-    {
-      "name": "Џокер класик-15 70",
-      "phone2": "070 828474",
-      "id": 188,
-      "phone": "046 1570",
-      "place": {
-        "slug": "struga",
-        "id": 27,
-        "name": "Струга"
-      },
-      "address": "Ристо Крле б.б.",
-      "slug": "djoker-klasik-15-70",
-      "description": null
-    },
-    {
-      "name": "Камен Джонев-такси за Софија",
-      "phone2": "+359 7843109",
-      "id": 189,
-      "phone": "+359 888700381",
-      "place": {
-        "slug": "kjustendil-(bugarija)",
-        "id": 21,
-        "name": "Ќустендил (Бугарија)"
-      },
-      "address": "",
-      "slug": "kamen-dzhonov-taksi-za-sofija",
-      "description": null
-    },
-    {
-      "name": "Кире-такси за Софија",
-      "phone2": null,
-      "id": 190,
-      "phone": "+359 888230081",
-      "place": {
-        "slug": "kjustendil-(bugarija)",
-        "id": 21,
-        "name": "Ќустендил (Бугарија)"
-      },
-      "address": "",
-      "slug": "kire-taksi-za-sofija",
-      "description": null
-    },
-    {
-      "name": "Росен-такси за Софија",
-      "phone2": null,
-      "id": 191,
-      "phone": "+359 887418459",
-      "place": {
-        "slug": "kjustendil-(bugarija)",
-        "id": 21,
-        "name": "Ќустендил (Бугарија)"
-      },
-      "address": "",
-      "slug": "rosen-taksi-za-sofija",
-      "description": null
-    },
-    {
-      "name": "Шливка 15-36",
-      "phone2": null,
-      "id": 192,
-      "phone": "033 470100",
-      "place": {
-        "slug": "berovo",
-        "id": 15,
-        "name": "Берово"
-      },
-      "address": "Смојмирски пат б.б.",
-      "slug": "shlivka-15-36",
-      "description": null
-    }
-  ]
-}
+      "name": "Струга"
+    },
+    "address": "ЈНА 2/1",
+    "slug": "marjan-15-65",
+    "description": null
+  },
+  {
+    "name": "Оскар",
+    "phone2": "070 262070",
+    "id": 165,
+    "phone": "046 1578",
+    "place": {
+      "slug": "struga",
+      "id": 27,
+      "name": "Струга"
+    },
+    "address": "Маршал Тито 117",
+    "slug": "oskar",
+    "description": null
+  },
+  {
+    "name": "Валентин Андонов",
+    "phone2": "359 7851796",
+    "id": 166,
+    "phone": "359 887306241",
+    "place": {
+      "slug": "kjustendil-(bugarija)",
+      "id": 21,
+      "name": "Ќустендил (Бугарија)"
+    },
+    "address": "П.Славејков 10",
+    "slug": "valentin-andonov",
+    "description": "Такси за Софија"
+  },
+  {
+    "name": "Камен Джонев",
+    "phone2": "",
+    "id": 167,
+    "phone": "359 888700381",
+    "place": {
+      "slug": "ohrid",
+      "id": 2,
+      "name": "Охрид"
+    },
+    "address": "Ќустендил",
+    "slug": "kamen-dzhonev",
+    "description": "Такси за Софија"
+  },
+  {
+    "name": "Перка 15-94",
+    "phone2": "",
+    "id": 168,
+    "phone": "043 222194",
+    "place": {
+      "slug": "veles",
+      "id": 12,
+      "name": "Велес"
+    },
+    "address": "Ордан Џинот 40",
+    "slug": "perka-15-94",
+    "description": null
+  },
+  {
+    "name": "Бинго",
+    "phone2": "",
+    "id": 169,
+    "phone": "043 222183",
+    "place": {
+      "slug": "veles",
+      "id": 12,
+      "name": "Велес"
+    },
+    "address": "Партение Зографски 4/33 (Првомајска)",
+    "slug": "bingo",
+    "description": "Над Трговскиот"
+  },
+  {
+    "name": "Такси Нима",
+    "phone2": "",
+    "id": 170,
+    "phone": "034 352120",
+    "place": {
+      "slug": "strumica",
+      "id": 11,
+      "name": "Струмица"
+    },
+    "address": "с.Мокриево",
+    "slug": "taksi-nima",
+    "description": "центар"
+  },
+  {
+    "name": "Радио Такси 15-90",
+    "phone2": "",
+    "id": 171,
+    "phone": "034 1590",
+    "place": {
+      "slug": "strumica",
+      "id": 11,
+      "name": "Струмица"
+    },
+    "address": "Братство Единство 36",
+    "slug": "radio-taksi-15-90",
+    "description": "спроти кино Балкан"
+  },
+  {
+    "name": "Радио такси 15-52",
+    "phone2": "",
+    "id": 172,
+    "phone": "034 355112",
+    "place": {
+      "slug": "strumica",
+      "id": 11,
+      "name": "Струмица"
+    },
+    "address": "Маршал Тито 38",
+    "slug": "radio-taksi-15-52",
+    "description": "центар"
+  },
+  {
+    "name": "Радио такси Стил 15-85",
+    "phone2": "",
+    "id": 173,
+    "phone": "034 346023",
+    "place": {
+      "slug": "strumica",
+      "id": 11,
+      "name": "Струмица"
+    },
+    "address": "Братство Единство 51",
+    "slug": "radio-taksi-stil-15-85",
+    "description": "во близина на нова болница"
+  },
+  {
+    "name": "Коби 15-93",
+    "phone2": "",
+    "id": 174,
+    "phone": "034 349193",
+    "place": {
+      "slug": "strumica",
+      "id": 11,
+      "name": "Струмица"
+    },
+    "address": "Панче Пешев 27",
+    "slug": "kobi-15-93",
+    "description": "до детска болница"
+  },
+  {
+    "name": "Зорген",
+    "phone2": "",
+    "id": 175,
+    "phone": "034 1587",
+    "place": {
+      "slug": "strumica",
+      "id": 11,
+      "name": "Струмица"
+    },
+    "address": "Браќа Миладинови 31",
+    "slug": "zorgen",
+    "description": "трговскиот до новата болница"
+  },
+  {
+    "name": "Роки 15-83",
+    "phone2": "",
+    "id": 176,
+    "phone": "032 1583",
+    "place": {
+      "slug": "shtip",
+      "id": 10,
+      "name": "Штип"
+    },
+    "address": "Сутјеска б.б",
+    "slug": "roki-15-83",
+    "description": "спроти Туш маркет"
+  },
+  {
+    "name": "Такси Маријан",
+    "phone2": "046 1565",
+    "id": 177,
+    "phone": "070 859333",
+    "place": {
+      "slug": "struga",
+      "id": 27,
+      "name": "Струга"
+    },
+    "address": "ЈНА б.б.",
+    "slug": "taksi-marijan",
+    "description": null
+  },
+  {
+    "name": "Такси Мики",
+    "phone2": "078 217207",
+    "id": 178,
+    "phone": "042 1555",
+    "place": {
+      "slug": "gostivar",
+      "id": 23,
+      "name": "Гостивар"
+    },
+    "address": "Боге Вељаноски 78",
+    "slug": "taksi-miki",
+    "description": "Najdobroto taksi vo gradot"
+  },
+  {
+    "name": "Сити 15-60",
+    "phone2": "076 221560",
+    "id": 179,
+    "phone": "044 331191",
+    "place": {
+      "slug": "tetovo",
+      "id": 5,
+      "name": "Тетово"
+    },
+    "address": "Иво Лола Рибар 219",
+    "slug": "siti 15-60",
+    "description": "Najdobroto taksi vo gradot"
+  },
+  {
+    "name": "Грич",
+    "phone2": null,
+    "id": 180,
+    "phone": "076 815121",
+    "place": {
+      "slug": "bitola",
+      "id": 4,
+      "name": "Битола"
+    },
+    "address": "Филип Втори Македонски 96/14 (Иван Милутиновиќ)",
+    "slug": "grich",
+    "description": null
+  },
+  {
+    "name": "Чоко 75",
+    "phone2": null,
+    "id": 181,
+    "phone": "076 815121",
+    "place": {
+      "slug": "bitola",
+      "id": 4,
+      "name": "Битола"
+    },
+    "address": "Филип Втори Македонски 96/14 (Иван Милутиновиќ)",
+    "slug": "choko-75",
+    "description": null
+  },
+  {
+    "name": "Џокер 15-97",
+    "phone2": null,
+    "id": 182,
+    "phone": "031 1597",
+    "place": {
+      "slug": "kumanovo",
+      "id": 3,
+      "name": "Куманово"
+    },
+    "address": "Тане Георгиевски 23",
+    "slug": "djoker-15-97",
+    "description": null
+  },
+  {
+    "name": "Џокер",
+    "phone2": "078 331597",
+    "id": 183,
+    "phone": "033 1597",
+    "place": {
+      "slug": "kochani",
+      "id": 6,
+      "name": "Кочани"
+    },
+    "address": "Вера Которка 73",
+    "slug": "djoker",
+    "description": null
+  },
+  {
+    "name": "Шпреса",
+    "phone2": "070 310678",
+    "id": 184,
+    "phone": "045 223200",
+    "place": {
+      "slug": "kichevo",
+      "id": 14,
+      "name": "Кичево"
+    },
+    "address": "Веле Змејкоски 52",
+    "slug": "shpresa",
+    "description": null
+  },
+  {
+    "name": "Сити Такси АС 15-35",
+    "phone2": null,
+    "id": 185,
+    "phone": "034 211050",
+    "place": {
+      "slug": "gevgelija",
+      "id": 8,
+      "name": "Гевгелија"
+    },
+    "address": "11-ти Октомври б.б.",
+    "slug": "siti-taksi-as-15-35",
+    "description": null
+  },
+  {
+    "name": "Мастер компани 15-31",
+    "phone2": "075 331531",
+    "id": 186,
+    "phone": "034 211245",
+    "place": {
+      "slug": "gevgelija",
+      "id": 8,
+      "name": "Гевгелија"
+    },
+    "address": "Ристо Чавдаров б.б.",
+    "slug": "master-kompani-15-31",
+    "description": null
+  },
+  {
+    "name": "Ваку",
+    "phone2": null,
+    "id": 187,
+    "phone": "070 232748",
+    "place": {
+      "slug": "struga",
+      "id": 27,
+      "name": "Струга"
+    },
+    "address": "с.Велешта",
+    "slug": "vaku",
+    "description": null
+  },
+  {
+    "name": "Џокер класик-15 70",
+    "phone2": "070 828474",
+    "id": 188,
+    "phone": "046 1570",
+    "place": {
+      "slug": "struga",
+      "id": 27,
+      "name": "Струга"
+    },
+    "address": "Ристо Крле б.б.",
+    "slug": "djoker-klasik-15-70",
+    "description": null
+  },
+  {
+    "name": "Камен Джонев-такси за Софија",
+    "phone2": "+359 7843109",
+    "id": 189,
+    "phone": "+359 888700381",
+    "place": {
+      "slug": "kjustendil-(bugarija)",
+      "id": 21,
+      "name": "Ќустендил (Бугарија)"
+    },
+    "address": "",
+    "slug": "kamen-dzhonov-taksi-za-sofija",
+    "description": null
+  },
+  {
+    "name": "Кире-такси за Софија",
+    "phone2": null,
+    "id": 190,
+    "phone": "+359 888230081",
+    "place": {
+      "slug": "kjustendil-(bugarija)",
+      "id": 21,
+      "name": "Ќустендил (Бугарија)"
+    },
+    "address": "",
+    "slug": "kire-taksi-za-sofija",
+    "description": null
+  },
+  {
+    "name": "Росен-такси за Софија",
+    "phone2": null,
+    "id": 191,
+    "phone": "+359 887418459",
+    "place": {
+      "slug": "kjustendil-(bugarija)",
+      "id": 21,
+      "name": "Ќустендил (Бугарија)"
+    },
+    "address": "",
+    "slug": "rosen-taksi-za-sofija",
+    "description": null
+  },
+  {
+    "name": "Шливка 15-36",
+    "phone2": null,
+    "id": 192,
+    "phone": "033 470100",
+    "place": {
+      "slug": "berovo",
+      "id": 15,
+      "name": "Берово"
+    },
+    "address": "Смојмирски пат б.б.",
+    "slug": "shlivka-15-36",
+    "description": null
+  }
+]

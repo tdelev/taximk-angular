@@ -2,7 +2,6 @@ var gulp = require('gulp');
 var concat = require('gulp-concat');
 var templateCache = require('gulp-angular-templatecache');
 var rev = require('gulp-rev-append');
-var rename = require("gulp-rename");
 var git = require('git-rev');
 var ngConfig = require('gulp-ng-config');
 var eslint = require('gulp-eslint');
@@ -27,7 +26,8 @@ var DESTINATION = '../taximk-static/';
 var DESTINATION_APP = DESTINATION + 'd/';
 var DATA = [
   'data/places.json',
-  'data/taxi.json'
+  'data/taxi.json',
+  'data/version.json'
 ];
 
 gulp.task('concat-css', function () {
@@ -73,7 +73,7 @@ gulp.task('config', function (cb) {
 gulp.task('data', function (cb) {
   var places = require('./data/places.json');
   var taxi = require('./data/taxi.json');
-  gulp.src([])
+  gulp.src(['data/data.json'])
     .pipe(ngConfig('taximk.data', {
       constants: {
         places: places,

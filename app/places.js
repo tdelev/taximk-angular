@@ -6,6 +6,6 @@
 
   function Places(places) {
     var vm = this;
-    vm.places = places.data;
+    vm.places = places;
   }
 })();
