@@ -2686,5 +2686,19 @@
     "address": "Смојмирски пат б.б.",
     "slug": "shlivka-15-36",
     "description": null
+  },
+  {
+    "name": "Буш",
+    "phone2": "034 231199",
+    "id": 193,
+    "phone": "034 15 33",
+    "place": {
+      "slug": "gevgelija",
+      "id": 8,
+      "name": "Гевгелија"
+    },
+    "address": "Ристо Бојмалиев бр.5 - Негорци",
+    "slug": "bush-15-33",
+    "description": null
   }
 ]
