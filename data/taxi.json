@@ -2700,5 +2700,19 @@
     "address": "Ристо Бојмалиев бр.5 - Негорци",
     "slug": "bush-15-33",
     "description": null
+  },
+  {
+    "name": "Бејбис",
+    "phone2": null,
+    "id": 194,
+    "phone": "078212677",
+    "place": {
+      "slug": "kavadarci",
+      "id": 22,
+      "name": "Кавадарци"
+    },
+    "address": "Страшо Пинџур бр. 87 - Кавадарци",
+    "slug": "bejbis",
+    "description": null
   }
 ]
